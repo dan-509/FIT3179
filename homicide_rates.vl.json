@@ -1,0 +1,1116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+        {
+            "Country Name": "Afghanistan",
+            "$PPP": "2293.551684",
+            "Homicide Rate": "6.655561152",
+            "Population": "38041754",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "Angola",
+            "$PPP": "6929.678158",
+            "Homicide Rate": "4.847075176",
+            "Population": "31825295",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Albania",
+            "$PPP": "14495.07851",
+            "Homicide Rate": "2.289492444",
+            "Population": "2854191",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "United Arab Emirates",
+            "$PPP": "69900.87785",
+            "Homicide Rate": "0.463782488",
+            "Population": "9770529",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Argentina",
+            "$PPP": "22947.1398",
+            "Homicide Rate": "5.324478739",
+            "Population": "44938712",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Armenia",
+            "$PPP": "14219.62771",
+            "Homicide Rate": "1.693915557",
+            "Population": "2957731",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Antigua and Barbuda",
+            "$PPP": "22816.4522",
+            "Homicide Rate": "11.0610904",
+            "Population": "97118",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Australia",
+            "$PPP": "53320.26904",
+            "Homicide Rate": "0.891632403",
+            "Population": "25364307",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Austria",
+            "$PPP": "59110.56256",
+            "Homicide Rate": "0.967228608",
+            "Population": "8877067",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Azerbaijan",
+            "$PPP": "15000.8165",
+            "Homicide Rate": "2.201107449",
+            "Population": "10023318",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Burundi",
+            "$PPP": "782.8165888",
+            "Homicide Rate": "6.054537366",
+            "Population": "11530580",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Belgium",
+            "$PPP": "54545.15088",
+            "Homicide Rate": "1.690054215",
+            "Population": "11484055",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Benin",
+            "$PPP": "3423.551727",
+            "Homicide Rate": "1.127497407",
+            "Population": "11801151",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Burkina Faso",
+            "$PPP": "2280.380037",
+            "Homicide Rate": "1.25044052",
+            "Population": "20321378",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Bangladesh",
+            "$PPP": "4950.743581",
+            "Homicide Rate": "2.373328796",
+            "Population": "163046161",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "Bulgaria",
+            "$PPP": "24561.18261",
+            "Homicide Rate": "1.304666594",
+            "Population": "6975761",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Bahrain",
+            "$PPP": "46891.85984",
+            "Homicide Rate": "0.523923468",
+            "Population": "1641172",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Bahamas, The",
+            "$PPP": "37265.8121",
+            "Homicide Rate": "31.95817147",
+            "Population": "389482",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Bosnia and Herzegovina",
+            "$PPP": "15791.67474",
+            "Homicide Rate": "1.17331026",
+            "Population": "3301000",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Belarus",
+            "$PPP": "19943.29252",
+            "Homicide Rate": "2.39087279",
+            "Population": "9466856",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Belize",
+            "$PPP": "7295.230136",
+            "Homicide Rate": "37.78857029",
+            "Population": "390353",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Bolivia",
+            "$PPP": "9086.060696",
+            "Homicide Rate": "6.218374444",
+            "Population": "11513100",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Brazil",
+            "$PPP": "15258.85083",
+            "Homicide Rate": "27.38253029",
+            "Population": "211049527",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Barbados",
+            "$PPP": "16286.97952",
+            "Homicide Rate": "9.768350544",
+            "Population": "287025",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Brunei Darussalam",
+            "$PPP": "64673.29857",
+            "Homicide Rate": "0.494542721",
+            "Population": "433285",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Botswana",
+            "$PPP": "18502.81822",
+            "Homicide Rate": "15.24830583",
+            "Population": "2303697",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Central African Republic",
+            "$PPP": "984.0280497",
+            "Homicide Rate": "20.12040065",
+            "Population": "4745185",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Canada",
+            "$PPP": "51341.70517",
+            "Homicide Rate": "1.755921136",
+            "Population": "37589262",
+            "Region": "North America"
+        },
+        {
+            "Country Name": "Switzerland",
+            "$PPP": "70989.25813",
+            "Homicide Rate": "0.586468024",
+            "Population": "8574832",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Chile",
+            "$PPP": "25154.99282",
+            "Homicide Rate": "4.404894484",
+            "Population": "18952038",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "China",
+            "$PPP": "16784.65935",
+            "Homicide Rate": "0.527090789",
+            "Population": "1397715000",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Cameroon",
+            "$PPP": "3804.071711",
+            "Homicide Rate": "1.388093415",
+            "Population": "25876380",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Colombia",
+            "$PPP": "15643.73145",
+            "Homicide Rate": "25.3438026",
+            "Population": "50339443",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Cabo Verde",
+            "$PPP": "7469.075579",
+            "Homicide Rate": "6.804422507",
+            "Population": "549935",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Costa Rica",
+            "$PPP": "20434.40843",
+            "Homicide Rate": "11.2612545",
+            "Population": "5047561",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Cyprus",
+            "$PPP": "30350.08663",
+            "Homicide Rate": "1.261286411",
+            "Population": "1198575",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Czech Republic",
+            "$PPP": "42575.61148",
+            "Homicide Rate": "0.620240593",
+            "Population": "10669709",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Germany",
+            "$PPP": "56052.42207",
+            "Homicide Rate": "0.947976619",
+            "Population": "83132799",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Dominica",
+            "$PPP": "12659.34451",
+            "Homicide Rate": "26.58830115",
+            "Population": "71808",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Denmark",
+            "$PPP": "59830.15424",
+            "Homicide Rate": "1.008321959",
+            "Population": "5818553",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Dominican Republic",
+            "$PPP": "19182.40915",
+            "Homicide Rate": "10.04973395",
+            "Population": "10738958",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Algeria",
+            "$PPP": "11820.08768",
+            "Homicide Rate": "1.364276397",
+            "Population": "43053054",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Estonia",
+            "$PPP": "38811.14334",
+            "Homicide Rate": "2.116541299",
+            "Population": "1326590",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Ethiopia",
+            "$PPP": "2311.704386",
+            "Homicide Rate": "8.792478547",
+            "Population": "112078730",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Finland",
+            "$PPP": "51323.83338",
+            "Homicide Rate": "1.629671612",
+            "Population": "5520314",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Fiji",
+            "$PPP": "14427.58242",
+            "Homicide Rate": "2.308277367",
+            "Population": "889953",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "France",
+            "$PPP": "49435.17994",
+            "Homicide Rate": "1.198636503",
+            "Population": "67059887",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "United Kingdom",
+            "$PPP": "48709.70114",
+            "Homicide Rate": "1.204914777",
+            "Population": "66834405",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Georgia",
+            "$PPP": "15636.55376",
+            "Homicide Rate": "2.223362493",
+            "Population": "3720382",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Ghana",
+            "$PPP": "5636.95391",
+            "Homicide Rate": "2.091241017",
+            "Population": "30417856",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Guinea-Bissau",
+            "$PPP": "2071.816248",
+            "Homicide Rate": "1.148704753",
+            "Population": "1920922",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Greece",
+            "$PPP": "31399.41567",
+            "Homicide Rate": "0.940863945",
+            "Population": "10716322",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Grenada",
+            "$PPP": "17956.1054",
+            "Homicide Rate": "10.82309649",
+            "Population": "112003",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Guatemala",
+            "$PPP": "8995.537873",
+            "Homicide Rate": "22.50134872",
+            "Population": "16604026",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Guyana",
+            "$PPP": "10104.70119",
+            "Homicide Rate": "14.24890919",
+            "Population": "782766",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Hong Kong SAR, China",
+            "$PPP": "62375.11937",
+            "Homicide Rate": "0.651136341",
+            "Population": "7507400",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Honduras",
+            "$PPP": "5965.368819",
+            "Homicide Rate": "38.9255911",
+            "Population": "9746117",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Croatia",
+            "$PPP": "29973.42609",
+            "Homicide Rate": "0.577421797",
+            "Population": "4067500",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Haiti",
+            "$PPP": "1800.564561",
+            "Homicide Rate": "6.67974266",
+            "Population": "11263077",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Hungary",
+            "$PPP": "33978.95509",
+            "Homicide Rate": "2.487198635",
+            "Population": "9769949",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Indonesia",
+            "$PPP": "12301.7529",
+            "Homicide Rate": "0.434534589",
+            "Population": "270625568",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "India",
+            "$PPP": "7034.217224",
+            "Homicide Rate": "3.079232442",
+            "Population": "1366417754",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "Ireland",
+            "$PPP": "88240.90103",
+            "Homicide Rate": "0.87160546",
+            "Population": "4941444",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Iraq",
+            "$PPP": "11332.14147",
+            "Homicide Rate": "10.07025321",
+            "Population": "39309783",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Iceland",
+            "$PPP": "60061.37059",
+            "Homicide Rate": "0.890969137",
+            "Population": "361313",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Israel",
+            "$PPP": "42193.82559",
+            "Homicide Rate": "1.492021506",
+            "Population": "9053300",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Italy",
+            "$PPP": "44196.6931",
+            "Homicide Rate": "0.569050661",
+            "Population": "60297396",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Jamaica",
+            "$PPP": "10166.06278",
+            "Homicide Rate": "43.85228153",
+            "Population": "2948279",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Jordan",
+            "$PPP": "10316.60909",
+            "Homicide Rate": "1.359106628",
+            "Population": "10101694",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Japan",
+            "$PPP": "43235.71757",
+            "Homicide Rate": "0.262574096",
+            "Population": "126264931",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Kazakhstan",
+            "$PPP": "27443.57117",
+            "Homicide Rate": "5.06083427",
+            "Population": "18513930",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Kenya",
+            "$PPP": "4509.322442",
+            "Homicide Rate": "4.928728024",
+            "Population": "52573973",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Kyrgyz Republic",
+            "$PPP": "5470.811536",
+            "Homicide Rate": "2.189077613",
+            "Population": "6456900",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Cambodia",
+            "$PPP": "4570.694289",
+            "Homicide Rate": "1.843011079",
+            "Population": "16486542",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Kiribati",
+            "$PPP": "2369.465528",
+            "Homicide Rate": "7.52169539",
+            "Population": "117606",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "St. Kitts and Nevis",
+            "$PPP": "27448.89535",
+            "Homicide Rate": "36.08588441",
+            "Population": "52823",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Korea, Rep.",
+            "$PPP": "43028.89635",
+            "Homicide Rate": "0.603849393",
+            "Population": "51709098",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Kuwait",
+            "$PPP": "51912.01213",
+            "Homicide Rate": "1.821519733",
+            "Population": "4207083",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Lebanon",
+            "$PPP": "15327.30896",
+            "Homicide Rate": "2.492926503",
+            "Population": "6855713",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Liberia",
+            "$PPP": "1486.994898",
+            "Homicide Rate": "3.264289973",
+            "Population": "4937374",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "St. Lucia",
+            "$PPP": "16089.06767",
+            "Homicide Rate": "21.44153059",
+            "Population": "182790",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Sri Lanka",
+            "$PPP": "13620.11848",
+            "Homicide Rate": "2.421243634",
+            "Population": "21803000",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "Lesotho",
+            "$PPP": "2882.421901",
+            "Homicide Rate": "43.56460456",
+            "Population": "2125268",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Lithuania",
+            "$PPP": "38214.20693",
+            "Homicide Rate": "4.569356042",
+            "Population": "2786844",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Luxembourg",
+            "$PPP": "121292.7393",
+            "Homicide Rate": "0.337886923",
+            "Population": "619896",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Latvia",
+            "$PPP": "32204.45784",
+            "Homicide Rate": "4.355804966",
+            "Population": "1912789",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Macao SAR, China",
+            "$PPP": "129103.0144",
+            "Homicide Rate": "0.316639568",
+            "Population": "640445",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Morocco",
+            "$PPP": "7951.153474",
+            "Homicide Rate": "1.415522885",
+            "Population": "36471769",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Moldova",
+            "$PPP": "13574.05143",
+            "Homicide Rate": "4.096792902",
+            "Population": "2657637",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Maldives",
+            "$PPP": "19698.23575",
+            "Homicide Rate": "0.721861826",
+            "Population": "530953",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "Mexico",
+            "$PPP": "20410.70657",
+            "Homicide Rate": "29.07106162",
+            "Population": "127575529",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "North Macedonia",
+            "$PPP": "17814.86118",
+            "Homicide Rate": "1.200216807",
+            "Population": "2083459",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Malta",
+            "$PPP": "45651.575",
+            "Homicide Rate": "1.593607358",
+            "Population": "502653",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Myanmar",
+            "$PPP": "5355.27019",
+            "Homicide Rate": "2.258451326",
+            "Population": "54045420",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Montenegro",
+            "$PPP": "22988.6802",
+            "Homicide Rate": "2.229998901",
+            "Population": "622137",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Mongolia",
+            "$PPP": "12819.94858",
+            "Homicide Rate": "6.182547929",
+            "Population": "3225167",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Mozambique",
+            "$PPP": "1333.518167",
+            "Homicide Rate": "3.510077519",
+            "Population": "30366036",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Mauritius",
+            "$PPP": "23942.13241",
+            "Homicide Rate": "2.919860099",
+            "Population": "1265711",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Malawi",
+            "$PPP": "1103.643616",
+            "Homicide Rate": "1.812157825",
+            "Population": "18628747",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Malaysia",
+            "$PPP": "29525.57736",
+            "Homicide Rate": "2.127665134",
+            "Population": "31949777",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Namibia",
+            "$PPP": "10036.59246",
+            "Homicide Rate": "17.67833361",
+            "Population": "2494530",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Niger",
+            "$PPP": "1269.601399",
+            "Homicide Rate": "4.428158163",
+            "Population": "23310715",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Nigeria",
+            "$PPP": "5348.339797",
+            "Homicide Rate": "34.5240459",
+            "Population": "200963599",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Nicaragua",
+            "$PPP": "5631.201573",
+            "Homicide Rate": "7.185947903",
+            "Population": "6545502",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Netherlands",
+            "$PPP": "59686.83163",
+            "Homicide Rate": "0.58618159",
+            "Population": "17332850",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Norway",
+            "$PPP": "66831.86883",
+            "Homicide Rate": "0.468343712",
+            "Population": "5347896",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Nepal",
+            "$PPP": "3558.399828",
+            "Homicide Rate": "2.299783996",
+            "Population": "28608710",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "New Zealand",
+            "$PPP": "43952.54843",
+            "Homicide Rate": "0.744359509",
+            "Population": "4917000",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Oman",
+            "$PPP": "29052.4974",
+            "Homicide Rate": "0.269180342",
+            "Population": "4974986",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Pakistan",
+            "$PPP": "4884.88139",
+            "Homicide Rate": "3.88308273",
+            "Population": "216565318",
+            "Region": "South Asia"
+        },
+        {
+            "Country Name": "Panama",
+            "$PPP": "32762.49475",
+            "Homicide Rate": "9.385022462",
+            "Population": "4246439",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Peru",
+            "$PPP": "13380.36442",
+            "Homicide Rate": "7.909223863",
+            "Population": "32510453",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Philippines",
+            "$PPP": "9277.374369",
+            "Homicide Rate": "6.464988165",
+            "Population": "108116615",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Papua New Guinea",
+            "$PPP": "4569.44618",
+            "Homicide Rate": "9.753078854",
+            "Population": "8776109",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Poland",
+            "$PPP": "34217.71571",
+            "Homicide Rate": "0.7304547",
+            "Population": "37970874",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Puerto Rico",
+            "$PPP": "35948.19196",
+            "Homicide Rate": "21.08831497",
+            "Population": "3193694",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Portugal",
+            "$PPP": "36470.70677",
+            "Homicide Rate": "0.789766806",
+            "Population": "10269417",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Paraguay",
+            "$PPP": "13210.30791",
+            "Homicide Rate": "7.144839995",
+            "Population": "7044636",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Qatar",
+            "$PPP": "96490.98387",
+            "Homicide Rate": "0.365972376",
+            "Population": "2832067",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Romania",
+            "$PPP": "32297.30337",
+            "Homicide Rate": "1.281649699",
+            "Population": "19356544",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Russian Federation",
+            "$PPP": "29657.83953",
+            "Homicide Rate": "8.209475626",
+            "Population": "144373535",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Rwanda",
+            "$PPP": "2318.48623",
+            "Homicide Rate": "2.577168608",
+            "Population": "12626950",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Saudi Arabia",
+            "$PPP": "48908.48238",
+            "Homicide Rate": "1.265815787",
+            "Population": "34268528",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Sudan",
+            "$PPP": "4122.526685",
+            "Homicide Rate": "5.148083939",
+            "Population": "42813238",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Senegal",
+            "$PPP": "3535.568779",
+            "Homicide Rate": "0.267518152",
+            "Population": "16296364",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Singapore",
+            "$PPP": "101375.7753",
+            "Homicide Rate": "0.156317765",
+            "Population": "5703569",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Solomon Islands",
+            "$PPP": "2465.520643",
+            "Homicide Rate": "3.774589464",
+            "Population": "669823",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Sierra Leone",
+            "$PPP": "1789.588431",
+            "Homicide Rate": "1.728967838",
+            "Population": "7813215",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "El Salvador",
+            "$PPP": "9139.706334",
+            "Homicide Rate": "52.01892617",
+            "Population": "6453553",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Serbia",
+            "$PPP": "18989.03966",
+            "Homicide Rate": "1.226890579",
+            "Population": "6944975",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Sao Tome and Principe",
+            "$PPP": "4128.062159",
+            "Homicide Rate": "3.251662412",
+            "Population": "215056",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Suriname",
+            "$PPP": "17005.42675",
+            "Homicide Rate": "5.433820449",
+            "Population": "581372",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Slovak Republic",
+            "$PPP": "34177.95276",
+            "Homicide Rate": "1.136985269",
+            "Population": "5454073",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Slovenia",
+            "$PPP": "40656.55737",
+            "Homicide Rate": "0.481269937",
+            "Population": "2087946",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Sweden",
+            "$PPP": "55814.51265",
+            "Homicide Rate": "1.083072677",
+            "Population": "10285453",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Eswatini",
+            "$PPP": "9048.178922",
+            "Homicide Rate": "11.55752804",
+            "Population": "1148130",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Seychelles",
+            "$PPP": "30259.96103",
+            "Homicide Rate": "12.53774383",
+            "Population": "97625",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Thailand",
+            "$PPP": "19228.29468",
+            "Homicide Rate": "2.582003648",
+            "Population": "69625582",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Tajikistan",
+            "$PPP": "3519.822017",
+            "Homicide Rate": "1.636893607",
+            "Population": "9321018",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Timor-Leste",
+            "$PPP": "3252.546371",
+            "Homicide Rate": "4.095983095",
+            "Population": "1293119",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Trinidad and Tobago",
+            "$PPP": "27260.81122",
+            "Homicide Rate": "30.64950684",
+            "Population": "1394973",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Tunisia",
+            "$PPP": "11201.34376",
+            "Homicide Rate": "3.060756101",
+            "Population": "11694719",
+            "Region": "Middle East & North Africa"
+        },
+        {
+            "Country Name": "Turkey",
+            "$PPP": "27875.19325",
+            "Homicide Rate": "2.590475672",
+            "Population": "83429615",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Tuvalu",
+            "$PPP": "4465.230931",
+            "Homicide Rate": "18.61504095",
+            "Population": "11646",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Tanzania",
+            "$PPP": "2689.286799",
+            "Homicide Rate": "6.48265759",
+            "Population": "58005463",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Uganda",
+            "$PPP": "2271.649424",
+            "Homicide Rate": "10.52446028",
+            "Population": "44269594",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Ukraine",
+            "$PPP": "12632.64367",
+            "Homicide Rate": "6.183730571",
+            "Population": "44385155",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "Uruguay",
+            "$PPP": "22454.65794",
+            "Homicide Rate": "12.06045302",
+            "Population": "3461734",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "United States",
+            "$PPP": "65118.35833",
+            "Homicide Rate": "4.956950548",
+            "Population": "328239523",
+            "Region": "North America"
+        },
+        {
+            "Country Name": "Uzbekistan",
+            "$PPP": "7288.765626",
+            "Homicide Rate": "1.135802775",
+            "Population": "33580650",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "St. Vincent and the Grenadines",
+            "$PPP": "12982.89639",
+            "Homicide Rate": "36.54069263",
+            "Population": "110589",
+            "Region": "Latin America & Caribbean"
+        },
+        {
+            "Country Name": "Vietnam",
+            "$PPP": "8374.444328",
+            "Homicide Rate": "1.528050919",
+            "Population": "96462106",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Samoa",
+            "$PPP": "6787.131426",
+            "Homicide Rate": "3.146105122",
+            "Population": "197097",
+            "Region": "East Asia & Pacific"
+        },
+        {
+            "Country Name": "Kosovo",
+            "$PPP": "11838.881",
+            "Homicide Rate": "2.39893009",
+            "Population": "1794248",
+            "Region": "Europe & Central Asia"
+        },
+        {
+            "Country Name": "South Africa",
+            "$PPP": "12999.12026",
+            "Homicide Rate": "35.9",
+            "Population": "58558270",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Zambia",
+            "$PPP": "3623.699395",
+            "Homicide Rate": "5.371749635",
+            "Population": "17861030",
+            "Region": "Sub-Saharan Africa"
+        },
+        {
+            "Country Name": "Zimbabwe",
+            "$PPP": "2953.484113",
+            "Homicide Rate": "7.479899771",
+            "Population": "14645468",
+            "Region": "Sub-Saharan Africa"
+        }
+      ]
+    },
+  "mark": {"type": "circle"},
+  "encoding": {
+    "color": {"field": "Region","type": "nominal"},
+    "x": {"field": "$PPP", "type": "quantitative"},
+    "y": {"field": "Homicide Rate","type": "quantitative"},
+    "size": {"field": "Population", "type": "quantitative"},
+    "tooltip": {"field": "Country Name", "type": "nominal"}
+  },
+  "config": {}
+}
