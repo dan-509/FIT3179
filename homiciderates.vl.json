@@ -97,3 +97,21 @@
         {"Region":"Americas","Subregion":"South America","Territory":"Uruguay","Count":"416","Rate":"12.060453021"},
         {"Region":"Americas","Subregion":"South America","Territory":"Venezuela (Bolivarian Republic of)","Count":"10598","Rate":"36.687634837"}
       ]
+    },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Territory",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "Rate",
+      "type": "quantitative"
+    }
+  },
+  "config": {}
+}
+
