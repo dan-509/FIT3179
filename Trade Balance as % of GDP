@@ -26,8 +26,7 @@
     "color": {
       "field": "%GDP",
       "type": "quantitative",
-      "scale": {"domainMid": 0,"range": "diverging"},
-      "title": "Trade Balance as % of GDP"
+      "scale": {"type": "threshold", "domain": [-25,-12,-5,-2,2,5,12,25], "range": ["#154360","#2471A3","#5499C7","#A9CCE3","#F2F3F4","#E6B0AA","#CO392B","#B22921","#641E16"]}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
