@@ -6,17 +6,23 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  
 </head>
 <body>
-
-<div id="vis"></div>
+  
+<div id="trade_balance_of_gdp"></div>
 
 <script type="text/javascript">
-  var spec = "https://dan-509.github.io/FIT3179/visualization.vl.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+
+  var spec2 = "trade_balance_of_gdp.json";
+  vegaEmbed('#symbol_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
 
 </body>
 </html>
+
