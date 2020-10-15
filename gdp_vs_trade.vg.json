@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trade_Openness_GDP.csv"
+  },
+  "mark": "point",
+  "selection": {"brush": {"encodings": ["x"], "type": "interval"}},
+  "encoding": {
+    "x": {
+      "field": "trade_openness",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "title": "Trade as % of GDP"
+    },
+    "y": {
+      "field": "gdp_per_capita",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "title": "GDP per Capita"
+    },
+    "color": {"field": "Region", "type": "nominal"},
+    "shape": {"field": "Region", "type": "nominal"},
+    "tooltip":[{"field": "Country", "type": "nominal"}, {"field": "trade_openness", "type": "quantitative", "title": "Trade as % of GDP","format": ".1f"}, {"field": "gdp_per_capita", "type": "quantitative", "title": "GDP per Capita", "format": ".1f"}]
+  }
+}
