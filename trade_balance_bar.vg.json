@@ -43,7 +43,7 @@
       "mark": { "type": "rule" },
       "data": {"values": {"y": 1}},
       "encoding": 
-        {"y": { "value": 233.5 },
+        {"y": { "value": 231 },
         "color": {"value": "black"},
         "size": {"value": 2}
       }
