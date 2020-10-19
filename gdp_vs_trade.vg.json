@@ -1,26 +1,75 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+  "width": 600,
+  "height": 400,
+   "autosize": {
+    "type": "fit"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trade_Openness_GDP.csv"
   },
-  "mark": "point",
-  "selection": {"brush": {"encodings": ["x"], "type": "interval"}},
-  "encoding": {
-    "x": {
-      "field": "trade_openness",
-      "type": "quantitative",
-      "scale": {"zero": false},
-      "title": "Trade as % of GDP"
+  "layer": [
+    {
+      "mark": {
+        "type": "point"
+      },
+      "selection": {
+        "industry": {
+          "type": "multi", "fields": ["Region"], "bind": "legend"},
+        "paintbrush": {
+      "type": "multi",
+      "on": "mouseover", "empty": "all"
+    }
+      },
+      "encoding": {
+        "x": {
+          "field": "trade_openness",
+          "type": "quantitative",
+          "title": "Exports + Imports as % of GDP"
+        },
+        "y": {
+          "field": "gdp_per_capita",
+          "type": "quantitative",
+          "title": "GDP per Capita"
+        },
+         "size": {
+      "condition": {
+        "selection": "paintbrush", "value": 70
+      },
+      "value": 20
     },
-    "y": {
-      "field": "gdp_per_capita",
-      "type": "quantitative",
-      "scale": {"zero": false},
-      "title": "GDP per Capita"
+      "color": {"field": "Region", "scale": {"range": ["#f54242","#ffa10a","gold","#37bdbd","#1913bf","#7d0a75","#80a6f2"]}},
+        "opacity": {
+      "condition": {"selection": "industry", "value": 1},
+      "value": 0.2},
+
+        "tooltip": [{"field": "Country", "type": "nominal"},{"field": "Region", "type": "nominal"}, {"field": "trade_openness", "type": "quantitative", "title": "Total Trade as % of GDP"}, {"field": "gdp_per_capita", "type": "quantitative", "title": "GDP per Capita"}]
+      }
     },
-    "color": {"field": "Region", "type": "nominal"},
-    "shape": {"field": "Region", "type": "nominal"},
-    "tooltip":[{"field": "Country", "type": "nominal"}, {"field": "trade_openness", "type": "quantitative", "title": "Trade as % of GDP","format": ".1f"}, {"field": "gdp_per_capita", "type": "quantitative", "title": "GDP per Capita", "format": ".1f"}]
-  }
+    
+    {
+      "mark": {
+        "type": "line",
+        "color": "black",
+        "width": 5
+      },
+      
+      "transform": [
+        {
+          "loess": "gdp_per_capita",
+          "on": "trade_openness"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "trade_openness",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "gdp_per_capita",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
 }
