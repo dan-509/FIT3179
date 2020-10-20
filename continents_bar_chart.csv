@@ -1,0 +1,301 @@
+﻿Continent,Year,Intra-Group,World
+Africa,1995,Extra,98187.77966
+Africa,1996,Extra,110875.5039
+Africa,1997,Extra,112906.1262
+Africa,1998,Extra,91831.5726
+Africa,1999,Extra,103238.7372
+Africa,2000,Extra,129367.4235
+Africa,2001,Extra,121181.3939
+Africa,2002,Extra,122156.5459
+Africa,2003,Extra,156620.3103
+Africa,2004,Extra,210033.7475
+Africa,2005,Extra,272084.3586
+Africa,2006,Extra,327980.8852
+Africa,2007,Extra,386249.7377
+Africa,2008,Extra,495095.7034
+Africa,2009,Extra,334658.831
+Africa,2010,Extra,444429.187
+Africa,2011,Extra,536535.7851
+Africa,2012,Extra,552104.1796
+Africa,2013,Extra,502910.3434
+Africa,2014,Extra,471565.0302
+Africa,2015,Extra,322564.1434
+Africa,2016,Extra,290777.0563
+Africa,2017,Extra,360190.4318
+Africa,2018,Extra,412169.1069
+Africa,2019,Extra,391855.9685
+Africa,1995,Intra,12968.80003
+Africa,1996,Intra,14162.61435
+Africa,1997,Intra,14194.84844
+Africa,1998,Intra,12544.89275
+Africa,1999,Intra,13103.12291
+Africa,2000,Intra,13858.81902
+Africa,2001,Intra,13891.36324
+Africa,2002,Intra,15710.04876
+Africa,2003,Intra,18223.521
+Africa,2004,Intra,23571.12394
+Africa,2005,Intra,28824.01004
+Africa,2006,Intra,33660.87928
+Africa,2007,Intra,42629.84206
+Africa,2008,Intra,55159.79829
+Africa,2009,Intra,51250.01807
+Africa,2010,Intra,70926.82704
+Africa,2011,Intra,82319.28194
+Africa,2012,Intra,85233.28596
+Africa,2013,Intra,85050.978
+Africa,2014,Intra,86625.42438
+Africa,2015,Intra,70395.7684
+Africa,2016,Intra,63108.53934
+Africa,2017,Intra,66231.19193
+Africa,2018,Intra,76914.79752
+Africa,2019,Intra,74614.9334
+Asia,1995,Extra,736478.9391
+Asia,1996,Extra,739270.4204
+Asia,1997,Extra,797488.0592
+Asia,1998,Extra,820892.909
+Asia,1999,Extra,864257.2229
+Asia,2000,Extra,993879.8574
+Asia,2001,Extra,900687.3449
+Asia,2002,Extra,940978.47
+Asia,2003,Extra,1080848.559
+Asia,2004,Extra,1337403.528
+Asia,2005,Extra,1574849.334
+Asia,2006,Extra,1855183.784
+Asia,2007,Extra,2140057.523
+Asia,2008,Extra,2455859.57
+Asia,2009,Extra,1903138.399
+Asia,2010,Extra,2392675.723
+Asia,2011,Extra,2860574.418
+Asia,2012,Extra,2885341.557
+Asia,2013,Extra,2897246.518
+Asia,2014,Extra,2973311.038
+Asia,2015,Extra,2746710.492
+Asia,2016,Extra,2674233.111
+Asia,2017,Extra,2923210.515
+Asia,2018,Extra,3199717.301
+Asia,2019,Extra,3115265.422
+Asia,1995,Intra,822319.4782
+Asia,1996,Intra,861356.0606
+Asia,1997,Intra,893330.6507
+Asia,1998,Intra,734847.8864
+Asia,1999,Intra,828168.4973
+Asia,2000,Intra,1065430.392
+Asia,2001,Intra,974266.0723
+Asia,2002,Intra,1083956.876
+Asia,2003,Intra,1336687.988
+Asia,2004,Intra,1696070.702
+Asia,2005,Intra,2006829.503
+Asia,2006,Intra,2375086.538
+Asia,2007,Intra,2782499.135
+Asia,2008,Intra,3320762.761
+Asia,2009,Intra,2699621.431
+Asia,2010,Intra,3533576.295
+Asia,2011,Intra,4359534.592
+Asia,2012,Intra,4590061.311
+Asia,2013,Intra,4769218.558
+Asia,2014,Intra,4723824.345
+Asia,2015,Intra,4105966.246
+Asia,2016,Intra,3880395.955
+Asia,2017,Intra,4350227.158
+Asia,2018,Intra,4771124.837
+Asia,2019,Intra,4584748.696
+Europe,1995,Extra,765030.1509
+Europe,1996,Extra,795667.0762
+Europe,1997,Extra,805505.2255
+Europe,1998,Extra,792345.4809
+Europe,1999,Extra,672328.782
+Europe,2000,Extra,723443.7302
+Europe,2001,Extra,733505.8493
+Europe,2002,Extra,782712.473
+Europe,2003,Extra,889261.1838
+Europe,2004,Extra,1079235.993
+Europe,2005,Extra,1185912.608
+Europe,2006,Extra,1330904.366
+Europe,2007,Extra,1563030.73
+Europe,2008,Extra,1775132.434
+Europe,2009,Extra,1432198.698
+Europe,2010,Extra,1741707.236
+Europe,2011,Extra,2105405.173
+Europe,2012,Extra,2177288.649
+Europe,2013,Extra,2335742.441
+Europe,2014,Extra,2294543.534
+Europe,2015,Extra,2048138.337
+Europe,2016,Extra,1937172.326
+Europe,2017,Extra,2127926.385
+Europe,2018,Extra,2349309.17
+Europe,2019,Extra,2294913.39
+Europe,1995,Intra,1607996.074
+Europe,1996,Intra,1669647.473
+Europe,1997,Intra,1672750.72
+Europe,1998,Intra,1759426.15
+Europe,1999,Intra,1864555.102
+Europe,2000,Intra,1949472.089
+Europe,2001,Intra,1967314.659
+Europe,2002,Intra,2106829.197
+Europe,2003,Intra,2544858.847
+Europe,2004,Intra,3103115.874
+Europe,2005,Intra,3405616.719
+Europe,2006,Intra,3920121.693
+Europe,2007,Intra,4549096.744
+Europe,2008,Intra,5140110.052
+Europe,2009,Intra,3832800.933
+Europe,2010,Intra,4256981.819
+Europe,2011,Intra,5037076.384
+Europe,2012,Intra,4763563.276
+Europe,2013,Intra,4946072.82
+Europe,2014,Intra,4922530.714
+Europe,2015,Intra,4160356.467
+Europe,2016,Intra,4205313.773
+Europe,2017,Intra,4633932.541
+Europe,2018,Intra,5130010.358
+Europe,2019,Intra,4939438.167
+Oceania,1995,Intra,9279.679438
+Oceania,1996,Intra,10729.63922
+Oceania,1997,Intra,10413.24535
+Oceania,1998,Intra,8294.070737
+Oceania,1999,Intra,9465.323146
+Oceania,2000,Intra,9440.885821
+Oceania,2001,Intra,8933.917602
+Oceania,2002,Intra,10033.14617
+Oceania,2003,Intra,12241.70944
+Oceania,2004,Intra,14534.87924
+Oceania,2005,Intra,16075.11255
+Oceania,2006,Intra,16319.24392
+Oceania,2007,Intra,19602.66573
+Oceania,2008,Intra,20976.00733
+Oceania,2009,Intra,17315.0445
+Oceania,2010,Intra,21517.14111
+Oceania,2011,Intra,24950.69919
+Oceania,2012,Intra,24250.60739
+Oceania,2013,Intra,22012.19793
+Oceania,2014,Intra,22708.83951
+Oceania,2015,Intra,18393.34963
+Oceania,2016,Intra,18745.57802
+Oceania,2017,Intra,19874.10824
+Oceania,2018,Intra,20750.82781
+Oceania,2019,Intra,20393.17573
+Oceania,1995,Extra,63065.32245
+Oceania,1996,Extra,69623.43999
+Oceania,1997,Extra,72112.77984
+Oceania,1998,Extra,64827.72463
+Oceania,1999,Extra,62992.55312
+Oceania,2000,Extra,73325.87221
+Oceania,2001,Extra,73074.0717
+Oceania,2002,Extra,74169.57297
+Oceania,2003,Extra,80533.0691
+Oceania,2004,Extra,99077.33024
+Oceania,2005,Extra,118498.3931
+Oceania,2006,Extra,137225.7433
+Oceania,2007,Extra,157425.3923
+Oceania,2008,Extra,205698.2377
+Oceania,2009,Extra,168596.1901
+Oceania,2010,Extra,231057.9963
+Oceania,2011,Extra,293038.7145
+Oceania,2012,Extra,279633.1623
+Oceania,2013,Extra,279250.5457
+Oceania,2014,Extra,272426.1757
+Oceania,2015,Extra,215528.2423
+Oceania,2016,Extra,216380.3548
+Oceania,2017,Extra,262193.3412
+Oceania,2018,Extra,286888.0185
+Oceania,2019,Extra,300899.7727
+North America,1995,Extra,496718.1947
+North America,1996,Extra,531452.3162
+North America,1997,Extra,576489.7142
+North America,1998,Extra,558872.7136
+North America,1999,Extra,562565.9329
+North America,2000,Extra,638434.8788
+North America,2001,Extra,599345.6472
+North America,2002,Extra,564495.7045
+North America,2003,Extra,593599.6468
+North America,2004,Extra,674212.2019
+North America,2005,Extra,747359.4274
+North America,2006,Extra,878109.3318
+North America,2007,Extra,1002069.381
+North America,2008,Extra,1140397.536
+North America,2009,Extra,930175.6119
+North America,2010,Extra,1125695.91
+North America,2011,Extra,1318894.119
+North America,2012,Extra,1367982.882
+North America,2013,Extra,1387389.369
+North America,2014,Extra,1417427.788
+North America,2015,Extra,1316153.733
+North America,2016,Extra,1276478.95
+North America,2017,Extra,1364698.79
+North America,2018,Extra,1478412.134
+North America,2019,Extra,1461899.263
+North America,1995,Intra,183954.6856
+North America,1996,Intra,277793.8056
+North America,1997,Intra,294034.5869
+North America,1998,Intra,327427.3735
+North America,1999,Intra,336472.9591
+North America,2000,Intra,369340.5167
+North America,2001,Intra,421141.0378
+North America,2002,Intra,391102.2868
+North America,2003,Intra,381518.5912
+North America,2004,Intra,403773.7914
+North America,2005,Intra,458239.2184
+North America,2006,Intra,514692.2623
+North America,2007,Intra,547541.8911
+North America,2008,Intra,580815.6467
+North America,2009,Intra,615657.4387
+North America,2010,Intra,442120.3117
+North America,2011,Intra,539392.1459
+North America,2012,Intra,613727.7544
+North America,2013,Intra,631538.3991
+North America,2014,Intra,647352.6331
+North America,2015,Intra,678072.8083
+North America,2016,Intra,594818.5352
+North America,2017,Intra,563877.6554
+North America,2018,Intra,601803.5756
+North America,2019,Intra,637938.9647
+Latin America,1995,Extra,629407.8016
+Latin America,1996,Extra,206023.1814
+Latin America,1997,Extra,226296.429
+Latin America,1998,Extra,224400.3024
+Latin America,1999,Extra,251419.7059
+Latin America,2000,Extra,298485.5884
+Latin America,2001,Extra,287942.603
+Latin America,2002,Extra,296108.758
+Latin America,2003,Extra,325009.6826
+Latin America,2004,Extra,397559.6213
+Latin America,2005,Extra,476626.7543
+Latin America,2006,Extra,564207.5856
+Latin America,2007,Extra,622115.4477
+Latin America,2008,Extra,710861.7126
+Latin America,2009,Extra,560241.9745
+Latin America,2010,Extra,714614.468
+Latin America,2011,Extra,885932.18
+Latin America,2012,Extra,899550.4037
+Latin America,2013,Extra,897786.8113
+Latin America,2014,Extra,884009.6781
+Latin America,2015,Extra,763307.0587
+Latin America,2016,Extra,743839.6512
+Latin America,2017,Extra,829667.3076
+Latin America,2018,Extra,908226.1513
+Latin America,2019,Extra,908706.831
+Latin America,1995,Intra,47430.97711
+Latin America,1996,Intra,52616.5802
+Latin America,1997,Intra,61024.49492
+Latin America,1998,Intra,58323.71005
+Latin America,1999,Intra,50670.83043
+Latin America,2000,Intra,64800.33029
+Latin America,2001,Intra,63813.99748
+Latin America,2002,Intra,57094.59929
+Latin America,2003,Intra,62965.11351
+Latin America,2004,Intra,84242.12165
+Latin America,2005,Intra,109324.4901
+Latin America,2006,Intra,132742.0867
+Latin America,2007,Intra,161913.1515
+Latin America,2008,Intra,198958.9339
+Latin America,2009,Intra,143722.2517
+Latin America,2010,Intra,178308.3863
+Latin America,2011,Intra,221270.9664
+Latin America,2012,Intra,218740.2116
+Latin America,2013,Intra,218934.0382
+Latin America,2014,Intra,197539.9747
+Latin America,2015,Intra,157979.3177
+Latin America,2016,Intra,144189.2405
+Latin America,2017,Intra,164680.8709
+Latin America,2018,Intra,175866.8303
+Latin America,2019,Intra,159064.7683
