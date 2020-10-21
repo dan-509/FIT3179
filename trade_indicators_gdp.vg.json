@@ -1,0 +1,111 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "title": "Trade Indicators vs. GDP per Capita",
+  "data": {
+    "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_exports_imports.csv"
+  },
+  "params": [
+    {
+      "name": "Indicator",
+      "bind": {
+        "input": "select",
+        "options": [
+          "exports_per_capita",
+          "imports_per_capita",
+          "trade_openness"],
+        "labels": [
+          "Exports per Capita",
+          "Imports per Capita",
+          "Trade Openness"
+        ],
+        "name": "Indicator: "
+      }
+    }
+  ],
+  "transform": [
+
+    {
+      "filter": "Indicator == null || datum.Indicator == Indicator"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Indicator"},
+    "y": {
+      "field": "gdp_per_capita",
+      "type": "quantitative", "title": "GDP per Capita"}
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Region"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#e41a1c",
+              "#984ea3",
+              "#ff7f00",
+              "#a6cee3",
+              "#377eb8",
+              "#a65628"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "gdp_per_capita", "type": "quantitative", "format": ".2f", "title": "GDP per Capita (USD)"}
+        ]
+      }
+    },
+     {
+      "mark": {
+        "type": "line",
+        "color": "black",
+        "width": 5,
+        "opacity": 0.4
+      },
+      
+      "transform": [
+        {
+          "loess": "gdp_per_capita",
+          "on": "Value"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Value",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "gdp_per_capita",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}
