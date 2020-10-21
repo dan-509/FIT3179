@@ -12,9 +12,17 @@
   
 </head>
 <body>
+<h1>Visualisation About World Trade</h1>
+
+<h2>Trade Balance as % of GDP Chloropleth Map</h2>
+<h3>(Trade Balance is defined as sum of exports, minus sum of imports</h3>
   
 <div id="trade_balance"></div>
 
+<h2>Trade Balance as % of GDP Bar Chart</h2>
+  
+<div id="trade_balance_bar"></div>
+  
 <script type="text/javascript">
 
   var spec1 = "trade_balance_bar.vg.json";
@@ -22,7 +30,7 @@
   vegaEmbed('#trade_balance', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-  vegaEmbed('#trade_balance', spec1).then(function(result) {
+  vegaEmbed('#trade_balance_bar', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
