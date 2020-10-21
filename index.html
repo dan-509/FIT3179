@@ -17,8 +17,12 @@
 
 <script type="text/javascript">
 
+  var spec1 = "trade_balance_bar.vg.json";
   var spec2 = "trade_balance.vg.json";
   vegaEmbed('#trade_balance', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#trade_balance', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
