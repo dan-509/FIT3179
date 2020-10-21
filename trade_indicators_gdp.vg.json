@@ -56,11 +56,12 @@
           "scale": {
             "domain": [
               "North America",
-              "South America",
+              "Latin America & Caribbean",
+              "Middle East & North Africa",
               "Europe",
               "Africa",
               "Asia",
-              "Oceania"
+              "Pacific"
             ],
             "range": [
               "#e41a1c",
@@ -68,17 +69,19 @@
               "#ff7f00",
               "#a6cee3",
               "#377eb8",
-              "#a65628"
+              "#a65628",
+              "purple"
             ]
           }
         },
         "opacity": {
-          "condition": {"selection": "continent_highlight", "value": 0.6},
-          "value": 0.2
+          "condition": {"selection": "continent_highlight", "value": 0.8},
+          "value": 0.1
         },
         "tooltip": [
           {"field": "Country", "type": "nominal"},
-          {"field": "gdp_per_capita", "type": "quantitative", "format": ".2f", "title": "GDP per Capita (USD)"}
+          {"field": "gdp_per_capita", "type": "quantitative", "format": ".2f", "title": "GDP per Capita (USD)"},
+          {"field": "Value", "type": "quantitative", "format": ".2f", "title": "Indicator"}
         ]
       }
     },
@@ -99,11 +102,13 @@
       "encoding": {
         "x": {
           "field": "Value",
-          "type": "quantitative"
+          "type": "quantitative",
+          "axis": {"grid": false}
         },
         "y": {
           "field": "gdp_per_capita",
-          "type": "quantitative"
+          "type": "quantitative",
+          "axis": {"gridOpacity": 0.1, "gridColor": "black"}
         }
       }
     }
