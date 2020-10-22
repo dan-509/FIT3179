@@ -9,6 +9,7 @@
   "params": [
     {
       "name": "Indicator",
+      "value":"exports_per_capita",
       "bind": {
         "input": "select",
         "options": [
@@ -69,16 +70,16 @@
               "Latin America & Caribbean",
               "Middle East & North Africa",
               "Europe",
-              "Africa",
+              " Africa",
               "Asia",
               "Pacific"
             ],
             "range": [
               "#e41a1c",
-              "#984ea3",
+              "#25b5c2",
               "#ff7f00",
-              "#a6cee3",
-              "#377eb8",
+              "#1a2dba",
+              "#b8b52e",
               "#a65628",
               "purple"
             ]
