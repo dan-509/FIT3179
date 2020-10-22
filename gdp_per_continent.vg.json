@@ -10,16 +10,21 @@
  "fields": ["Continent"],
  "bind": "legend"
  }},
+"transform": [{
+    "calculate": "if(datum.Continent === 'Asia', 0, if(datum.Continent === 'Europe', 1,2))",
+    "as": "siteOrder"
+  }],
 
-  "mark": "area",
+"mark": "area",
 
   "encoding": {
     "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}},
     "y": {"field": "Value", "type": "quantitative", "title": "Total Trade (x10^6 USD)"},
     
     "color": {"field": "Continent","type": "nominal", "scale": {
- "domain": ["North America", "Latin America", "Europe","Africa","Asia","Oceania"],"range": ["#9c0e0e","#36409e","#e6ac00","#742e78","#177da6"]}},
+ "domain": ["North America", "Latin America", "Europe","Africa","Asia","Oceania"],"range": ["#9c0e0e","#36409e","#e6ac00","#742e78","#177da6","#4984e3"]}},
  "opacity": {"condition": {"selection": "continent_highlight", "value": 0.9},"value": 0.3},
+ "order": {"field": "siteOrder"},
 
  "tooltip": [{"field": "Continent", "type": "nominal"}, {"field": "Value", "type": "quantitative"}]}
 }
