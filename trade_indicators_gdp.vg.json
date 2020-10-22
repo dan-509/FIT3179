@@ -4,7 +4,7 @@
   "height": 600,
   "title": "Trade Indicators vs. GDP per Capita",
   "data": {
-    "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_exports_imports.csv"
+    "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_imports_exports.csv"
   },
   "params": [
     {
@@ -27,17 +27,17 @@
   "transform": [
 
     {
-      "filter": "Indicator == null || datum.Indicator == Indicator"
+      "filter": "Indicator == datum.exports_per_capita || datum.Indicator == Indicator"
     }
   ],
   "encoding": {
     "x": {
       "field": "Value",
       "type": "quantitative",
-      "title": "Indicator"},
+      "title": "Indicator", "scale": {"type": "log"}},
     "y": {
       "field": "gdp_per_capita",
-      "type": "quantitative", "title": "GDP per Capita"}
+      "type": "quantitative", "title": "GDP per Capita", "scale": {"type": "log"}}
   },
   "layer": [
     {
@@ -50,6 +50,16 @@
       },
       "mark": "circle",
       "encoding": {
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+            "range": [10, 50, 150, 200, 300, 400]
+          },
+          "legend": {"format": ".1s"}
+        },
         "color": {
           "field": "Region",
           "type": "nominal",
@@ -103,12 +113,12 @@
         "x": {
           "field": "Value",
           "type": "quantitative",
-          "axis": {"grid": false}
+          "axis": {"grid": false, "ticks": false}
         },
         "y": {
           "field": "gdp_per_capita",
           "type": "quantitative",
-          "axis": {"gridOpacity": 0.1, "gridColor": "black"}
+          "axis": {"grid": false, "ticks": false}
         }
       }
     }
