@@ -1,0 +1,733 @@
+﻿Region,Country_One,GDP_per_capita,Indicator,Exports,Country_Two
+Asia,Afghanistan,502.1154869,Exports,7.75379772,Afghanistan
+Europe,Albania,5352.857411,Exports,31.51122294,Albania
+Middle East & North Africa,Algeria,3948.343279,Exports,22.57015127,Algeria
+Latin America & Caribbean,Antigua and Barbuda,17790.30931,Exports,42.38446109,Antigua and Barbuda
+Latin America & Caribbean,Argentina,10006.14897,Exports,17.29021799,Argentina
+Asia,Armenia,4622.733493,Exports,38.52233727,Armenia
+Pacific,Australia,54907.10191,Exports,24.13105483,Australia
+Europe,Austria,50277.27509,Exports,55.72161256,Austria
+Asia,Azerbaijan,4793.58702,Exports,49.17961337,Azerbaijan
+Latin America & Caribbean,"Bahamas, The",32933.48601,Exports,36.08032516,"Bahamas, The"
+Middle East & North Africa,Bahrain,23503.97713,Exports,79.56720683,Bahrain
+Asia,Bangladesh,1855.739824,Exports,15.32324744,Bangladesh
+Latin America & Caribbean,Barbados,18148.24493,Exports,42.00812056,Barbados
+Europe,Belarus,6663.295293,Exports,66.43135329,Belarus
+Europe,Belgium,46116.69923,Exports,81.72912231,Belgium
+Latin America & Caribbean,Belize,4815.163711,Exports,57.70225061,Belize
+ Africa,Benin,1219.432672,Exports,29.63052719,Benin
+Asia,Bhutan,3243.231126,Exports,30.82012756,Bhutan
+Latin America & Caribbean,Bolivia,3552.068762,Exports,24.96726235,Bolivia
+Europe,Bosnia and Herzegovina,6073.265203,Exports,40.15259869,Bosnia and Herzegovina
+ Africa,Botswana,7961.33814,Exports,33.5876396,Botswana
+Latin America & Caribbean,Brazil,8717.186278,Exports,14.32241885,Brazil
+Asia,Brunei Darussalam,31086.75108,Exports,57.94604046,Brunei Darussalam
+Europe,Bulgaria,9737.601351,Exports,63.57392913,Bulgaria
+ Africa,Burkina Faso,774.8396902,Exports,27.73032252,Burkina Faso
+ Africa,Burundi,261.2474725,Exports,9.131191569,Burundi
+ Africa,Cabo Verde,3603.781794,Exports,50.86442617,Cabo Verde
+Asia,Cambodia,1643.121389,Exports,61.09129652,Cambodia
+ Africa,Cameroon,1497.909176,Exports,16.55722825,Cameroon
+North America,Canada,46194.72523,Exports,31.64447076,Canada
+ Africa,Central African Republic,467.9074406,Exports,18.65532802,Central African Republic
+ Africa,Chad,709.5403101,Exports,36.74225344,Chad
+Latin America & Caribbean,Chile,14896.45387,Exports,28.19988458,Chile
+Asia,China,10261.67913,Exports,18.41519387,China
+Latin America & Caribbean,Colombia,6432.387583,Exports,15.89406983,Colombia
+ Africa,Comoros,1393.522372,Exports,13.24797641,Comoros
+ Africa,"Congo, Dem. Rep.",545.2162123,Exports,32.06549441,"Congo, Dem. Rep."
+ Africa,"Congo, Rep.",2011.072399,Exports,77.44773364,"Congo, Rep."
+Latin America & Caribbean,Costa Rica,12238.37496,Exports,33.75304104,Costa Rica
+ Africa,Cote d'Ivoire,2286.162777,Exports,23.51133843,Cote d'Ivoire
+Europe,Croatia,14853.23984,Exports,51.14520797,Croatia
+Latin America & Caribbean,Cuba,8821.818891,Exports,14.50166462,Cuba
+Europe,Cyprus,27858.371,Exports,71.12506608,Cyprus
+Europe,Czech Republic,23101.7777,Exports,75.48569646,Czech Republic
+Europe,Denmark,59822.09296,Exports,55.86708296,Denmark
+Middle East & North Africa,Djibouti,3408.846254,Exports,154.7132779,Djibouti
+Latin America & Caribbean,Dominica,8300.375074,Exports,51.56572153,Dominica
+Latin America & Caribbean,Dominican Republic,8282.116222,Exports,23.67289278,Dominican Republic
+Latin America & Caribbean,Ecuador,6183.823825,Exports,23.39003998,Ecuador
+Middle East & North Africa,"Egypt, Arab Rep.",3020.03135,Exports,18.91197548,"Egypt, Arab Rep."
+Latin America & Caribbean,El Salvador,4187.250031,Exports,29.5416732,El Salvador
+ Africa,Equatorial Guinea,8131.923888,Exports,55.13387379,Equatorial Guinea
+ Africa,Eritrea,642.5076591,Exports,18.15483726,Eritrea
+Europe,Estonia,23659.87229,Exports,72.57296099,Estonia
+ Africa,Eswatini,3837.026994,Exports,40.50137274,Eswatini
+ Africa,Ethiopia,857.501351,Exports,7.916147885,Ethiopia
+Europe,Finland,48685.85399,Exports,39.97659094,Finland
+Europe,France,40493.92857,Exports,31.77171366,France
+ Africa,Gabon,7667.366861,Exports,51.37825741,Gabon
+ Africa,"Gambia, The",751.2946884,Exports,21.34115279,"Gambia, The"
+Asia,Georgia,4769.186543,Exports,53.99693213,Georgia
+Europe,Germany,46258.87829,Exports,46.96816206,Germany
+ Africa,Ghana,2202.115567,Exports,35.97678235,Ghana
+Europe,Greece,19582.53601,Exports,37.18748519,Greece
+Europe,Greenland,54470.95639,Exports,40.830211,Greenland
+Latin America & Caribbean,Grenada,10965.51316,Exports,54.54879888,Grenada
+Latin America & Caribbean,Guatemala,4619.987097,Exports,17.69603088,Guatemala
+ Africa,Guinea,1064.131237,Exports,42.27474768,Guinea
+ Africa,Guinea-Bissau,697.7844029,Exports,23.49763888,Guinea-Bissau
+Latin America & Caribbean,Guyana,5468.356629,Exports,33.01354383,Guyana
+Latin America & Caribbean,Haiti,754.5879177,Exports,16.85129816,Haiti
+Latin America & Caribbean,Honduras,2574.912191,Exports,40.24591477,Honduras
+Asia,"Hong Kong SAR, China",48755.83508,Exports,177.297309,"Hong Kong SAR, China"
+Europe,Hungary,16475.74184,Exports,83.32805976,Hungary
+Europe,Iceland,66944.82551,Exports,45.31997126,Iceland
+Asia,India,2104.1459,Exports,18.6619686,India
+Asia,Indonesia,4135.569263,Exports,18.40751558,Indonesia
+Middle East & North Africa,"Iran, Islamic Rep.",5520.310789,Exports,24.94217685,"Iran, Islamic Rep."
+Middle East & North Africa,Iraq,5955.10901,Exports,37.0783753,Iraq
+Europe,Ireland,78660.95646,Exports,126.7954384,Ireland
+Middle East & North Africa,Israel,43641.39774,Exports,29.4460992,Israel
+Europe,Italy,33189.5658,Exports,31.60569707,Italy
+Latin America & Caribbean,Jamaica,5582.263778,Exports,37.95785341,Jamaica
+Asia,Japan,40246.88013,Exports,18.52490882,Japan
+Middle East & North Africa,Jordan,4330.329346,Exports,37.23272587,Jordan
+Asia,Kazakhstan,9731.145207,Exports,36.54018002,Kazakhstan
+ Africa,Kenya,1816.546916,Exports,12.03179759,Kenya
+Pacific,Kiribati,1655.078839,Exports,9.63032729,Kiribati
+Asia,"Korea, Rep.",31761.97769,Exports,39.82584099,"Korea, Rep."
+Europe,Kosovo,4417.50994,Exports,27.76710549,Kosovo
+Middle East & North Africa,Kuwait,32031.9801,Exports,56.72055732,Kuwait
+Asia,Kyrgyz Republic,1309.392992,Exports,37.3851608,Kyrgyz Republic
+Asia,Lao PDR,2534.898277,Exports,33.20942746,Lao PDR
+Europe,Latvia,17836.36489,Exports,59.90641778,Latvia
+Middle East & North Africa,Lebanon,7784.316857,Exports,21.66337342,Lebanon
+ Africa,Lesotho,1157.535164,Exports,43.63178661,Lesotho
+ Africa,Liberia,621.8929536,Exports,28.72532815,Liberia
+Middle East & North Africa,Libya,7683.750611,Exports,64.8359037,Libya
+Europe,Lithuania,19455.45413,Exports,78.08804918,Lithuania
+Europe,Luxembourg,114704.5942,Exports,208.7527498,Luxembourg
+ Africa,Madagascar,522.2198092,Exports,26.46460013,Madagascar
+ Africa,Malawi,411.5523404,Exports,31.00801491,Malawi
+Asia,Malaysia,11414.83766,Exports,65.34080416,Malaysia
+Asia,Maldives,10790.50024,Exports,66.29588971,Maldives
+ Africa,Mali,890.7372855,Exports,23.01596844,Mali
+Middle East & North Africa,Malta,29416.23061,Exports,140.6004396,Malta
+Pacific,Marshall Islands,3788.163594,Exports,40.44717505,Marshall Islands
+ Africa,Mauritania,1677.919253,Exports,41.84427852,Mauritania
+ Africa,Mauritius,11203.54058,Exports,39.17480071,Mauritius
+Latin America & Caribbean,Mexico,9863.072699,Exports,39.06118749,Mexico
+Europe,Moldova,4498.52085,Exports,30.52041376,Moldova
+Asia,Mongolia,4295.235025,Exports,61.33934743,Mongolia
+Europe,Montenegro,8832.036836,Exports,44.0777408,Montenegro
+Middle East & North Africa,Morocco,3204.095003,Exports,39.13941976,Morocco
+ Africa,Mozambique,491.8047231,Exports,38.02763213,Mozambique
+Asia,Myanmar,1407.813143,Exports,30.38975072,Myanmar
+ Africa,Namibia,4957.458006,Exports,35.81001788,Namibia
+Asia,Nepal,1071.050761,Exports,8.668299439,Nepal
+Europe,Netherlands,52447.83144,Exports,82.52375774,Netherlands
+Pacific,New Zealand,42084.35337,Exports,27.98112473,New Zealand
+Latin America & Caribbean,Nicaragua,1912.903745,Exports,45.1069894,Nicaragua
+ Africa,Niger,554.6009687,Exports,11.73542198,Niger
+ Africa,Nigeria,2229.858696,Exports,15.49688918,Nigeria
+Europe,North Macedonia,6093.14769,Exports,61.69179049,North Macedonia
+Europe,Norway,75419.63487,Exports,36.94995718,Norway
+Middle East & North Africa,Oman,15474.03248,Exports,58.16216216,Oman
+Asia,Pakistan,1284.702041,Exports,10.11901778,Pakistan
+Pacific,Palau,15859.43486,Exports,46.99489322,Palau
+Latin America & Caribbean,Panama,15731.01603,Exports,42.54347579,Panama
+Pacific,Papua New Guinea,2845.180186,Exports,72.1640496,Papua New Guinea
+Latin America & Caribbean,Paraguay,5414.799138,Exports,34.67342737,Paraguay
+Latin America & Caribbean,Peru,6977.695784,Exports,24.18513724,Peru
+Asia,Philippines,3485.084218,Exports,28.33998584,Philippines
+Europe,Poland,15595.22703,Exports,55.75024323,Poland
+Europe,Portugal,23145.04082,Exports,43.84798637,Portugal
+Middle East & North Africa,Qatar,64781.7332,Exports,50.15385952,Qatar
+Europe,Romania,12919.52964,Exports,40.35126522,Romania
+Europe,Russia,11584.99538,Exports,28.31304335,Russia
+ Africa,Rwanda,801.656187,Exports,19.02497413,Rwanda
+Pacific,Samoa,4315.920675,Exports,37.98789166,Samoa
+Latin America & Caribbean,St. Kitts and Nevis,19896.4957,Exports,63.67877985,St. Kitts and Nevis
+Latin America & Caribbean,St. Vincent and the Grenadines,7463.537831,Exports,27.17433135,St. Vincent and the Grenadines
+Middle East & North Africa,Saudi Arabia,23139.79866,Exports,36.03075974,Saudi Arabia
+ Africa,Senegal,1446.830965,Exports,22.79262606,Senegal
+Europe,Serbia,7402.354559,Exports,51.9468186,Serbia
+ Africa,Seychelles,17401.72151,Exports,68.89336367,Seychelles
+ Africa,Sierra Leone,504.4625434,Exports,17.46729933,Sierra Leone
+Asia,Singapore,65233.28244,Exports,173.5172668,Singapore
+Europe,Slovak Republic,19329.0968,Exports,93.14276433,Slovak Republic
+Europe,Slovenia,25739.24781,Exports,84.43691396,Slovenia
+Pacific,Solomon Islands,2127.538508,Exports,45.07474355,Solomon Islands
+ Africa,Somalia,126.9249205,Exports,9.786747186,Somalia
+ Africa,South Africa,6001.400814,Exports,29.85383928,South Africa
+ Africa,South Sudan,1119.651333,Exports,36.65134928,South Sudan
+Europe,Spain,29613.67114,Exports,34.87024735,Spain
+Asia,Sri Lanka,3853.083693,Exports,23.12402725,Sri Lanka
+ Africa,Sudan,441.5056034,Exports,12.62908644,Sudan
+Latin America & Caribbean,Suriname,6854.906561,Exports,52.54731927,Suriname
+Europe,Sweden,51610.06606,Exports,47.01042841,Sweden
+Europe,Switzerland,81993.72715,Exports,66.03353839,Switzerland
+Middle East & North Africa,Syrian Arab Republic,2032.623489,Exports,38.64344514,Syrian Arab Republic
+Asia,Taiwan,"29,910",Exports,70,Taiwan
+Asia,Tajikistan,870.7875893,Exports,15.72120475,Tajikistan
+ Africa,Tanzania,1122.12181,Exports,15.14027774,Tanzania
+Asia,Thailand,7808.192916,Exports,59.74074216,Thailand
+Asia,Timor-Leste,1294.188934,Exports,2.740390769,Timor-Leste
+ Africa,Togo,675.5422133,Exports,29.63951621,Togo
+Pacific,Tonga,4364.015561,Exports,22.29790712,Tonga
+Middle East & North Africa,Tunisia,3317.541013,Exports,49.83196894,Tunisia
+Asia,Turkey,9042.492983,Exports,31.61423692,Turkey
+Asia,Turkmenistan,6966.635411,Exports,22.6661947,Turkmenistan
+ Africa,Uganda,776.7685759,Exports,19.36610935,Uganda
+Europe,Ukraine,3659.031312,Exports,41.17221411,Ukraine
+Middle East & North Africa,United Arab Emirates,43103.32306,Exports,92.45625334,United Arab Emirates
+Europe,United Kingdom,42300.26713,Exports,31.54227211,United Kingdom
+North America,United States of America,65118.35833,Exports,11.71630917,United States of America
+Latin America & Caribbean,Uruguay,16190.12696,Exports,21.72385772,Uruguay
+Asia,Uzbekistan,1724.841134,Exports,31.19832228,Uzbekistan
+Pacific,Vanuatu,3058.065675,Exports,48.55579011,Vanuatu
+Latin America & Caribbean,"Venezuela, RB",16054.49051,Exports,16.69382735,"Venezuela, RB"
+Asia,Vietnam,2715.276036,Exports,106.79555,Vietnam
+ Africa,Zambia,1291.343357,Exports,35.02139052,Zambia
+ Africa,Zimbabwe,1463.98591,Exports,19.0006092,Zimbabwe
+Asia,Afghanistan,502.1154869,Imports,37.8673794,Afghanistan
+Europe,Albania,5352.857411,Imports,45.21707662,Albania
+Middle East & North Africa,Algeria,3948.343279,Imports,29.47462331,Algeria
+Latin America & Caribbean,Antigua and Barbuda,17790.30931,Imports,47.80097092,Antigua and Barbuda
+Latin America & Caribbean,Argentina,10006.14897,Imports,15.10344797,Argentina
+Asia,Armenia,4622.733493,Imports,52.9099483,Armenia
+Pacific,Australia,54907.10191,Imports,21.55516047,Australia
+Europe,Austria,50277.27509,Imports,52.00309088,Austria
+Asia,Azerbaijan,4793.58702,Imports,36.86426464,Azerbaijan
+Latin America & Caribbean,"Bahamas, The",32933.48601,Imports,41.27007123,"Bahamas, The"
+Middle East & North Africa,Bahrain,23503.97713,Imports,71.83764747,Bahrain
+Asia,Bangladesh,1855.739824,Imports,21.43605231,Bangladesh
+Latin America & Caribbean,Barbados,18148.24493,Imports,41.68355059,Barbados
+Europe,Belarus,6663.295293,Imports,66.91463619,Belarus
+Europe,Belgium,46116.69923,Imports,81.56409914,Belgium
+Latin America & Caribbean,Belize,4815.163711,Imports,58.00782139,Belize
+ Africa,Benin,1219.432672,Imports,34.05080512,Benin
+Asia,Bhutan,3243.231126,Imports,55.89158793,Bhutan
+Latin America & Caribbean,Bolivia,3552.068762,Imports,31.43004429,Bolivia
+Europe,Bosnia and Herzegovina,6073.265203,Imports,55.72801959,Bosnia and Herzegovina
+ Africa,Botswana,7961.33814,Imports,40.52300238,Botswana
+Latin America & Caribbean,Brazil,8717.186278,Imports,14.65420479,Brazil
+Asia,Brunei Darussalam,31086.75108,Imports,50.5636179,Brunei Darussalam
+Europe,Bulgaria,9737.601351,Imports,60.14917588,Bulgaria
+ Africa,Burkina Faso,774.8396902,Imports,32.4518207,Burkina Faso
+ Africa,Burundi,261.2474725,Imports,32.72616867,Burundi
+ Africa,Cabo Verde,3603.781794,Imports,65.3501024,Cabo Verde
+Asia,Cambodia,1643.121389,Imports,62.46522725,Cambodia
+ Africa,Cameroon,1497.909176,Imports,23.9966836,Cameroon
+North America,Canada,46194.72523,Imports,33.33223374,Canada
+ Africa,Central African Republic,467.9074406,Imports,47.47980242,Central African Republic
+ Africa,Chad,709.5403101,Imports,37.82827212,Chad
+Latin America & Caribbean,Chile,14896.45387,Imports,28.56190425,Chile
+Asia,China,10261.67913,Imports,17.26489362,China
+Latin America & Caribbean,Colombia,6432.387583,Imports,22.20068814,Colombia
+ Africa,Comoros,1393.522372,Imports,29.84654492,Comoros
+ Africa,"Congo, Dem. Rep.",545.2162123,Imports,35.22178372,"Congo, Dem. Rep."
+ Africa,"Congo, Rep.",2011.072399,Imports,34.80312905,"Congo, Rep."
+Latin America & Caribbean,Costa Rica,12238.37496,Imports,32.34597479,Costa Rica
+ Africa,Cote d'Ivoire,2286.162777,Imports,22.08574099,Cote d'Ivoire
+Europe,Croatia,14853.23984,Imports,51.70456534,Croatia
+Latin America & Caribbean,Cuba,8821.818891,Imports,12.59310359,Cuba
+Europe,Cyprus,27858.371,Imports,71.51789132,Cyprus
+Europe,Czech Republic,23101.7777,Imports,69.39076909,Czech Republic
+Europe,Denmark,59822.09296,Imports,49.13459944,Denmark
+Middle East & North Africa,Djibouti,3408.846254,Imports,143.5530089,Djibouti
+Latin America & Caribbean,Dominica,8300.375074,Imports,88.22088002,Dominica
+Latin America & Caribbean,Dominican Republic,8282.116222,Imports,29.2875093,Dominican Republic
+Latin America & Caribbean,Ecuador,6183.823825,Imports,23.34987362,Ecuador
+Middle East & North Africa,"Egypt, Arab Rep.",3020.03135,Imports,29.36629558,"Egypt, Arab Rep."
+Latin America & Caribbean,El Salvador,4187.250031,Imports,47.63720347,El Salvador
+ Africa,Equatorial Guinea,8131.923888,Imports,52.24744124,Equatorial Guinea
+ Africa,Eritrea,642.5076591,Imports,29.23895286,Eritrea
+Europe,Estonia,23659.87229,Imports,68.58120427,Estonia
+ Africa,Eswatini,3837.026994,Imports,43.91196862,Eswatini
+ Africa,Ethiopia,857.501351,Imports,20.82587382,Ethiopia
+Europe,Finland,48685.85399,Imports,39.49008239,Finland
+Europe,France,40493.92857,Imports,32.75101537,France
+ Africa,Gabon,7667.366861,Imports,21.56090134,Gabon
+ Africa,"Gambia, The",751.2946884,Imports,44.14329535,"Gambia, The"
+Asia,Georgia,4769.186543,Imports,62.87155939,Georgia
+Europe,Germany,46258.87829,Imports,41.13049857,Germany
+ Africa,Ghana,2202.115567,Imports,35.40140847,Ghana
+Europe,Greece,19582.53601,Imports,37.19698158,Greece
+Europe,Greenland,54470.95639,Imports,45.01914913,Greenland
+Latin America & Caribbean,Grenada,10965.51316,Imports,55.49876661,Grenada
+Latin America & Caribbean,Guatemala,4619.987097,Imports,28.16954741,Guatemala
+ Africa,Guinea,1064.131237,Imports,66.44607875,Guinea
+ Africa,Guinea-Bissau,697.7844029,Imports,33.51091696,Guinea-Bissau
+Latin America & Caribbean,Guyana,5468.356629,Imports,46.06822059,Guyana
+Latin America & Caribbean,Haiti,754.5879177,Imports,57.45721588,Haiti
+Latin America & Caribbean,Honduras,2574.912191,Imports,56.3674365,Honduras
+Asia,"Hong Kong SAR, China",48755.83508,Imports,175.5249251,"Hong Kong SAR, China"
+Europe,Hungary,16475.74184,Imports,79.65248211,Hungary
+Europe,Iceland,66944.82551,Imports,40.59670469,Iceland
+Asia,India,2104.1459,Imports,21.35656851,India
+Asia,Indonesia,4135.569263,Imports,18.89588228,Indonesia
+Middle East & North Africa,"Iran, Islamic Rep.",5520.310789,Imports,23.8384608,"Iran, Islamic Rep."
+Middle East & North Africa,Iraq,5955.10901,Imports,39.29548163,Iraq
+Europe,Ireland,78660.95646,Imports,112.4196532,Ireland
+Middle East & North Africa,Israel,43641.39774,Imports,29.01853243,Israel
+Europe,Italy,33189.5658,Imports,28.53373293,Italy
+Latin America & Caribbean,Jamaica,5582.263778,Imports,51.06852832,Jamaica
+Asia,Japan,40246.88013,Imports,18.29159855,Japan
+Middle East & North Africa,Jordan,4330.329346,Imports,50.38444201,Jordan
+Asia,Kazakhstan,9731.145207,Imports,27.89132614,Kazakhstan
+ Africa,Kenya,1816.546916,Imports,21.36964548,Kenya
+Pacific,Kiribati,1655.078839,Imports,88.76208633,Kiribati
+Asia,"Korea, Rep.",31761.97769,Imports,36.88355411,"Korea, Rep."
+Europe,Kosovo,4417.50994,Imports,56.05966439,Kosovo
+Middle East & North Africa,Kuwait,32031.9801,Imports,43.76702476,Kuwait
+Asia,Kyrgyz Republic,1309.392992,Imports,65.69983784,Kyrgyz Republic
+Asia,Lao PDR,2534.898277,Imports,41.88246346,Lao PDR
+Europe,Latvia,17836.36489,Imports,59.82364468,Latvia
+Middle East & North Africa,Lebanon,7784.316857,Imports,41.94829538,Lebanon
+ Africa,Lesotho,1157.535164,Imports,90.99012649,Lesotho
+ Africa,Liberia,621.8929536,Imports,98.72694774,Liberia
+Middle East & North Africa,Libya,7683.750611,Imports,53.48590104,Libya
+Europe,Lithuania,19455.45413,Imports,72.49269134,Lithuania
+Europe,Luxembourg,114704.5942,Imports,172.7638666,Luxembourg
+ Africa,Madagascar,522.2198092,Imports,33.35755397,Madagascar
+ Africa,Malawi,411.5523404,Imports,35.59649468,Malawi
+Asia,Malaysia,11414.83766,Imports,57.75014645,Malaysia
+Asia,Maldives,10790.50024,Imports,69.44147023,Maldives
+ Africa,Mali,890.7372855,Imports,34.17302886,Mali
+Middle East & North Africa,Malta,29416.23061,Imports,120.411644,Malta
+Pacific,Marshall Islands,3788.163594,Imports,85.28050687,Marshall Islands
+ Africa,Mauritania,1677.919253,Imports,52.37413508,Mauritania
+ Africa,Mauritius,11203.54058,Imports,53.63417689,Mauritius
+Latin America & Caribbean,Mexico,9863.072699,Imports,39.11478408,Mexico
+Europe,Moldova,4498.52085,Imports,55.2483161,Moldova
+Asia,Mongolia,4295.235025,Imports,64.41952355,Mongolia
+Europe,Montenegro,8832.036836,Imports,65.37616198,Montenegro
+Middle East & North Africa,Morocco,3204.095003,Imports,48.32377026,Morocco
+ Africa,Mozambique,491.8047231,Imports,74.12378511,Mozambique
+Asia,Myanmar,1407.813143,Imports,30.2992385,Myanmar
+ Africa,Namibia,4957.458006,Imports,47.66554682,Namibia
+Asia,Nepal,1071.050761,Imports,46.2576217,Nepal
+Europe,Netherlands,52447.83144,Imports,71.7985693,Netherlands
+Pacific,New Zealand,42084.35337,Imports,27.96082516,New Zealand
+Latin America & Caribbean,Nicaragua,1912.903745,Imports,49.9686531,Nicaragua
+ Africa,Niger,554.6009687,Imports,27.97753401,Niger
+ Africa,Nigeria,2229.858696,Imports,17.51094431,Nigeria
+Europe,North Macedonia,6093.14769,Imports,75.58480098,North Macedonia
+Europe,Norway,75419.63487,Imports,35.19654248,Norway
+Middle East & North Africa,Oman,15474.03248,Imports,42.52398649,Oman
+Asia,Pakistan,1284.702041,Imports,20.31919048,Pakistan
+Pacific,Palau,15859.43486,Imports,76.30323643,Palau
+Latin America & Caribbean,Panama,15731.01603,Imports,46.84867692,Panama
+Pacific,Papua New Guinea,2845.180186,Imports,58.91886141,Papua New Guinea
+Latin America & Caribbean,Paraguay,5414.799138,Imports,34.48417398,Paraguay
+Latin America & Caribbean,Peru,6977.695784,Imports,22.93675534,Peru
+Asia,Philippines,3485.084218,Imports,40.26692022,Philippines
+Europe,Poland,15595.22703,Imports,50.49222452,Poland
+Europe,Portugal,23145.04082,Imports,43.79322263,Portugal
+Middle East & North Africa,Qatar,64781.7332,Imports,36.39350301,Qatar
+Europe,Romania,12919.52964,Imports,44.20860401,Romania
+Europe,Russia,11584.99538,Imports,20.76102652,Russia
+ Africa,Rwanda,801.656187,Imports,34.63640874,Rwanda
+Pacific,Samoa,4315.920675,Imports,53.13511976,Samoa
+Latin America & Caribbean,St. Kitts and Nevis,19896.4957,Imports,58.9918525,St. Kitts and Nevis
+Latin America & Caribbean,St. Vincent and the Grenadines,7463.537831,Imports,58.02867039,St. Vincent and the Grenadines
+Middle East & North Africa,Saudi Arabia,23139.79866,Imports,26.13231149,Saudi Arabia
+ Africa,Senegal,1446.830965,Imports,37.7137764,Senegal
+Europe,Serbia,7402.354559,Imports,60.69730834,Serbia
+ Africa,Seychelles,17401.72151,Imports,86.35250471,Seychelles
+ Africa,Sierra Leone,504.4625434,Imports,39.22853131,Sierra Leone
+Asia,Singapore,65233.28244,Imports,145.6311148,Singapore
+Europe,Slovak Republic,19329.0968,Imports,92.10718172,Slovak Republic
+Europe,Slovenia,25739.24781,Imports,75.29920634,Slovenia
+Pacific,Solomon Islands,2127.538508,Imports,53.31904816,Solomon Islands
+ Africa,Somalia,126.9249205,Imports,37.74140482,Somalia
+ Africa,South Africa,6001.400814,Imports,29.35069678,South Africa
+ Africa,South Sudan,1119.651333,Imports,28.8999999,South Sudan
+Europe,Spain,29613.67114,Imports,32.04682129,Spain
+Asia,Sri Lanka,3853.083693,Imports,29.24683633,Sri Lanka
+ Africa,Sudan,441.5056034,Imports,14.09277648,Sudan
+Latin America & Caribbean,Suriname,6854.906561,Imports,38.41407488,Suriname
+Europe,Sweden,51610.06606,Imports,43.47547593,Sweden
+Europe,Switzerland,81993.72715,Imports,53.40495722,Switzerland
+Middle East & North Africa,Syrian Arab Republic,2032.623489,Imports,37.83303084,Syrian Arab Republic
+Asia,Taiwan,"29,910",Imports,47.22,Taiwan
+Asia,Tajikistan,870.7875893,Imports,40.92153941,Tajikistan
+ Africa,Tanzania,1122.12181,Imports,17.09866326,Tanzania
+Asia,Thailand,7808.192916,Imports,50.5584534,Thailand
+Asia,Timor-Leste,1294.188934,Imports,60.26615347,Timor-Leste
+ Africa,Togo,675.5422133,Imports,41.6015382,Togo
+Pacific,Tonga,4364.015561,Imports,75.92219761,Tonga
+Middle East & North Africa,Tunisia,3317.541013,Imports,60.70321833,Tunisia
+Asia,Turkey,9042.492983,Imports,29.78026305,Turkey
+Asia,Turkmenistan,6966.635411,Imports,12.49719621,Turkmenistan
+ Africa,Uganda,776.7685759,Imports,26.65275336,Uganda
+Europe,Ukraine,3659.031312,Imports,49.00157602,Ukraine
+Middle East & North Africa,United Arab Emirates,43103.32306,Imports,68.47983955,United Arab Emirates
+Europe,United Kingdom,42300.26713,Imports,32.71140572,United Kingdom
+North America,United States of America,65118.35833,Imports,14.67241761,United States of America
+Latin America & Caribbean,Uruguay,16190.12696,Imports,19.30624431,Uruguay
+Asia,Uzbekistan,1724.841134,Imports,41.81855552,Uzbekistan
+Pacific,Vanuatu,3058.065675,Imports,49.39134612,Vanuatu
+Latin America & Caribbean,"Venezuela, RB",16054.49051,Imports,31.39698618,"Venezuela, RB"
+Asia,Vietnam,2715.276036,Imports,103.6046953,Vietnam
+ Africa,Zambia,1291.343357,Imports,35.01364422,Zambia
+ Africa,Zimbabwe,1463.98591,Imports,31.00475225,Zimbabwe
+Asia,Afghanistan,502.1154869,Trade Openness,45.62117712,Afghanistan
+Europe,Albania,5352.857411,Trade Openness,76.72829956,Albania
+Middle East & North Africa,Algeria,3948.343279,Trade Openness,52.04477457,Algeria
+Latin America & Caribbean,Antigua and Barbuda,17790.30931,Trade Openness,90.18543202,Antigua and Barbuda
+Latin America & Caribbean,Argentina,10006.14897,Trade Openness,32.39366596,Argentina
+Asia,Armenia,4622.733493,Trade Openness,91.43228557,Armenia
+Pacific,Australia,54907.10191,Trade Openness,45.6862153,Australia
+Europe,Austria,50277.27509,Trade Openness,107.7247034,Austria
+Asia,Azerbaijan,4793.58702,Trade Openness,86.04387801,Azerbaijan
+Latin America & Caribbean,"Bahamas, The",32933.48601,Trade Openness,77.35039639,"Bahamas, The"
+Middle East & North Africa,Bahrain,23503.97713,Trade Openness,151.4048543,Bahrain
+Asia,Bangladesh,1855.739824,Trade Openness,36.75929975,Bangladesh
+Latin America & Caribbean,Barbados,18148.24493,Trade Openness,83.69167115,Barbados
+Europe,Belarus,6663.295293,Trade Openness,133.3459895,Belarus
+Europe,Belgium,46116.69923,Trade Openness,163.2932215,Belgium
+Latin America & Caribbean,Belize,4815.163711,Trade Openness,115.710072,Belize
+ Africa,Benin,1219.432672,Trade Openness,63.68133231,Benin
+Asia,Bhutan,3243.231126,Trade Openness,86.71171549,Bhutan
+Latin America & Caribbean,Bolivia,3552.068762,Trade Openness,56.39730664,Bolivia
+Europe,Bosnia and Herzegovina,6073.265203,Trade Openness,95.88061828,Bosnia and Herzegovina
+ Africa,Botswana,7961.33814,Trade Openness,74.11064198,Botswana
+Latin America & Caribbean,Brazil,8717.186278,Trade Openness,28.97662365,Brazil
+Asia,Brunei Darussalam,31086.75108,Trade Openness,108.5096584,Brunei Darussalam
+Europe,Bulgaria,9737.601351,Trade Openness,123.723105,Bulgaria
+ Africa,Burkina Faso,774.8396902,Trade Openness,60.18214321,Burkina Faso
+ Africa,Burundi,261.2474725,Trade Openness,41.85736024,Burundi
+ Africa,Cabo Verde,3603.781794,Trade Openness,116.2145286,Cabo Verde
+Asia,Cambodia,1643.121389,Trade Openness,123.5565238,Cambodia
+ Africa,Cameroon,1497.909176,Trade Openness,40.55391185,Cameroon
+North America,Canada,46194.72523,Trade Openness,64.9767045,Canada
+ Africa,Central African Republic,467.9074406,Trade Openness,66.13513044,Central African Republic
+ Africa,Chad,709.5403101,Trade Openness,74.57052556,Chad
+Latin America & Caribbean,Chile,14896.45387,Trade Openness,56.76178882,Chile
+Asia,China,10261.67913,Trade Openness,35.68008749,China
+Latin America & Caribbean,Colombia,6432.387583,Trade Openness,38.09475797,Colombia
+ Africa,Comoros,1393.522372,Trade Openness,43.09452132,Comoros
+ Africa,"Congo, Dem. Rep.",545.2162123,Trade Openness,67.28727813,"Congo, Dem. Rep."
+ Africa,"Congo, Rep.",2011.072399,Trade Openness,112.2508627,"Congo, Rep."
+Latin America & Caribbean,Costa Rica,12238.37496,Trade Openness,66.09901583,Costa Rica
+ Africa,Cote d'Ivoire,2286.162777,Trade Openness,45.59707942,Cote d'Ivoire
+Europe,Croatia,14853.23984,Trade Openness,102.8497733,Croatia
+Latin America & Caribbean,Cuba,8821.818891,Trade Openness,27.0947682,Cuba
+Europe,Cyprus,27858.371,Trade Openness,142.6429574,Cyprus
+Europe,Czech Republic,23101.7777,Trade Openness,144.8764656,Czech Republic
+Europe,Denmark,59822.09296,Trade Openness,105.0016824,Denmark
+Middle East & North Africa,Djibouti,3408.846254,Trade Openness,298.2662868,Djibouti
+Latin America & Caribbean,Dominica,8300.375074,Trade Openness,139.7866015,Dominica
+Latin America & Caribbean,Dominican Republic,8282.116222,Trade Openness,52.96040208,Dominican Republic
+Latin America & Caribbean,Ecuador,6183.823825,Trade Openness,46.7399136,Ecuador
+Middle East & North Africa,"Egypt, Arab Rep.",3020.03135,Trade Openness,48.27827106,"Egypt, Arab Rep."
+Latin America & Caribbean,El Salvador,4187.250031,Trade Openness,77.17887668,El Salvador
+ Africa,Equatorial Guinea,8131.923888,Trade Openness,107.381315,Equatorial Guinea
+ Africa,Eritrea,642.5076591,Trade Openness,47.39379012,Eritrea
+Europe,Estonia,23659.87229,Trade Openness,141.1541653,Estonia
+ Africa,Eswatini,3837.026994,Trade Openness,84.41334136,Eswatini
+ Africa,Ethiopia,857.501351,Trade Openness,28.74202171,Ethiopia
+Europe,Finland,48685.85399,Trade Openness,79.46667333,Finland
+Europe,France,40493.92857,Trade Openness,64.52272903,France
+ Africa,Gabon,7667.366861,Trade Openness,72.93915874,Gabon
+ Africa,"Gambia, The",751.2946884,Trade Openness,65.48444814,"Gambia, The"
+Asia,Georgia,4769.186543,Trade Openness,116.8684915,Georgia
+Europe,Germany,46258.87829,Trade Openness,88.09866064,Germany
+ Africa,Ghana,2202.115567,Trade Openness,71.37819082,Ghana
+Europe,Greece,19582.53601,Trade Openness,74.38446677,Greece
+Europe,Greenland,54470.95639,Trade Openness,85.84936014,Greenland
+Latin America & Caribbean,Grenada,10965.51316,Trade Openness,110.0475655,Grenada
+Latin America & Caribbean,Guatemala,4619.987097,Trade Openness,45.86557829,Guatemala
+ Africa,Guinea,1064.131237,Trade Openness,108.7208264,Guinea
+ Africa,Guinea-Bissau,697.7844029,Trade Openness,57.00855585,Guinea-Bissau
+Latin America & Caribbean,Guyana,5468.356629,Trade Openness,79.08176442,Guyana
+Latin America & Caribbean,Haiti,754.5879177,Trade Openness,74.30851404,Haiti
+Latin America & Caribbean,Honduras,2574.912191,Trade Openness,96.61335126,Honduras
+Asia,"Hong Kong SAR, China",48755.83508,Trade Openness,352.8222341,"Hong Kong SAR, China"
+Europe,Hungary,16475.74184,Trade Openness,162.9805419,Hungary
+Europe,Iceland,66944.82551,Trade Openness,85.91667594,Iceland
+Asia,India,2104.1459,Trade Openness,40.01853711,India
+Asia,Indonesia,4135.569263,Trade Openness,37.30339786,Indonesia
+Middle East & North Africa,"Iran, Islamic Rep.",5520.310789,Trade Openness,48.78063765,"Iran, Islamic Rep."
+Middle East & North Africa,Iraq,5955.10901,Trade Openness,76.37385693,Iraq
+Europe,Ireland,78660.95646,Trade Openness,239.2150917,Ireland
+Middle East & North Africa,Israel,43641.39774,Trade Openness,58.46463163,Israel
+Europe,Italy,33189.5658,Trade Openness,60.13943,Italy
+Latin America & Caribbean,Jamaica,5582.263778,Trade Openness,89.02638174,Jamaica
+Asia,Japan,40246.88013,Trade Openness,36.81650736,Japan
+Middle East & North Africa,Jordan,4330.329346,Trade Openness,87.61716788,Jordan
+Asia,Kazakhstan,9731.145207,Trade Openness,64.43150616,Kazakhstan
+ Africa,Kenya,1816.546916,Trade Openness,33.40144307,Kenya
+Pacific,Kiribati,1655.078839,Trade Openness,98.39241362,Kiribati
+Asia,"Korea, Rep.",31761.97769,Trade Openness,76.7093951,"Korea, Rep."
+Europe,Kosovo,4417.50994,Trade Openness,83.82676987,Kosovo
+Middle East & North Africa,Kuwait,32031.9801,Trade Openness,100.4875821,Kuwait
+Asia,Kyrgyz Republic,1309.392992,Trade Openness,103.0849986,Kyrgyz Republic
+Asia,Lao PDR,2534.898277,Trade Openness,75.09189092,Lao PDR
+Europe,Latvia,17836.36489,Trade Openness,119.7300625,Latvia
+Middle East & North Africa,Lebanon,7784.316857,Trade Openness,63.61166881,Lebanon
+ Africa,Lesotho,1157.535164,Trade Openness,134.6219131,Lesotho
+ Africa,Liberia,621.8929536,Trade Openness,127.4522759,Liberia
+Middle East & North Africa,Libya,7683.750611,Trade Openness,118.3218047,Libya
+Europe,Lithuania,19455.45413,Trade Openness,150.5807405,Lithuania
+Europe,Luxembourg,114704.5942,Trade Openness,381.5166164,Luxembourg
+ Africa,Madagascar,522.2198092,Trade Openness,59.8221541,Madagascar
+ Africa,Malawi,411.5523404,Trade Openness,66.60450958,Malawi
+Asia,Malaysia,11414.83766,Trade Openness,123.0909506,Malaysia
+Asia,Maldives,10790.50024,Trade Openness,135.7373599,Maldives
+ Africa,Mali,890.7372855,Trade Openness,57.18899731,Mali
+Middle East & North Africa,Malta,29416.23061,Trade Openness,261.0120836,Malta
+Pacific,Marshall Islands,3788.163594,Trade Openness,125.7276819,Marshall Islands
+ Africa,Mauritania,1677.919253,Trade Openness,94.2184136,Mauritania
+ Africa,Mauritius,11203.54058,Trade Openness,92.8089776,Mauritius
+Latin America & Caribbean,Mexico,9863.072699,Trade Openness,78.17597157,Mexico
+Europe,Moldova,4498.52085,Trade Openness,85.76872986,Moldova
+Asia,Mongolia,4295.235025,Trade Openness,125.758871,Mongolia
+Europe,Montenegro,8832.036836,Trade Openness,109.4539028,Montenegro
+Middle East & North Africa,Morocco,3204.095003,Trade Openness,87.46319002,Morocco
+ Africa,Mozambique,491.8047231,Trade Openness,112.1514172,Mozambique
+Asia,Myanmar,1407.813143,Trade Openness,60.68898922,Myanmar
+ Africa,Namibia,4957.458006,Trade Openness,83.4755647,Namibia
+Asia,Nepal,1071.050761,Trade Openness,54.92592114,Nepal
+Europe,Netherlands,52447.83144,Trade Openness,154.322327,Netherlands
+Pacific,New Zealand,42084.35337,Trade Openness,55.94194989,New Zealand
+Latin America & Caribbean,Nicaragua,1912.903745,Trade Openness,95.07564249,Nicaragua
+ Africa,Niger,554.6009687,Trade Openness,39.71295599,Niger
+ Africa,Nigeria,2229.858696,Trade Openness,33.00783349,Nigeria
+Europe,North Macedonia,6093.14769,Trade Openness,137.2765915,North Macedonia
+Europe,Norway,75419.63487,Trade Openness,72.14649965,Norway
+Middle East & North Africa,Oman,15474.03248,Trade Openness,100.6861486,Oman
+Asia,Pakistan,1284.702041,Trade Openness,30.43820826,Pakistan
+Pacific,Palau,15859.43486,Trade Openness,123.2981296,Palau
+Latin America & Caribbean,Panama,15731.01603,Trade Openness,89.39215271,Panama
+Pacific,Papua New Guinea,2845.180186,Trade Openness,131.082911,Papua New Guinea
+Latin America & Caribbean,Paraguay,5414.799138,Trade Openness,69.15760135,Paraguay
+Latin America & Caribbean,Peru,6977.695784,Trade Openness,47.12189258,Peru
+Asia,Philippines,3485.084218,Trade Openness,68.60690606,Philippines
+Europe,Poland,15595.22703,Trade Openness,106.2424677,Poland
+Europe,Portugal,23145.04082,Trade Openness,87.641209,Portugal
+Middle East & North Africa,Qatar,64781.7332,Trade Openness,86.54736253,Qatar
+Europe,Romania,12919.52964,Trade Openness,84.55986923,Romania
+Europe,Russia,11584.99538,Trade Openness,49.07406987,Russia
+ Africa,Rwanda,801.656187,Trade Openness,53.66138286,Rwanda
+Pacific,Samoa,4315.920675,Trade Openness,91.12301141,Samoa
+Latin America & Caribbean,St. Kitts and Nevis,19896.4957,Trade Openness,122.6706323,St. Kitts and Nevis
+Latin America & Caribbean,St. Vincent and the Grenadines,7463.537831,Trade Openness,85.20300173,St. Vincent and the Grenadines
+Middle East & North Africa,Saudi Arabia,23139.79866,Trade Openness,62.16307122,Saudi Arabia
+ Africa,Senegal,1446.830965,Trade Openness,60.50640246,Senegal
+Europe,Serbia,7402.354559,Trade Openness,112.6441269,Serbia
+ Africa,Seychelles,17401.72151,Trade Openness,155.2458684,Seychelles
+ Africa,Sierra Leone,504.4625434,Trade Openness,56.69583064,Sierra Leone
+Asia,Singapore,65233.28244,Trade Openness,319.1483816,Singapore
+Europe,Slovak Republic,19329.0968,Trade Openness,185.2499461,Slovak Republic
+Europe,Slovenia,25739.24781,Trade Openness,159.7361203,Slovenia
+Pacific,Solomon Islands,2127.538508,Trade Openness,98.39379171,Solomon Islands
+ Africa,Somalia,126.9249205,Trade Openness,47.52815201,Somalia
+ Africa,South Africa,6001.400814,Trade Openness,59.20453606,South Africa
+ Africa,South Sudan,1119.651333,Trade Openness,65.55134918,South Sudan
+Europe,Spain,29613.67114,Trade Openness,66.91706863,Spain
+Asia,Sri Lanka,3853.083693,Trade Openness,52.37086358,Sri Lanka
+ Africa,Sudan,441.5056034,Trade Openness,26.72186292,Sudan
+Latin America & Caribbean,Suriname,6854.906561,Trade Openness,90.96139415,Suriname
+Europe,Sweden,51610.06606,Trade Openness,90.48590435,Sweden
+Europe,Switzerland,81993.72715,Trade Openness,119.4384956,Switzerland
+Middle East & North Africa,Syrian Arab Republic,2032.623489,Trade Openness,76.47647598,Syrian Arab Republic
+Asia,Taiwan,"29,910",Trade Openness,117.22,Taiwan
+Asia,Tajikistan,870.7875893,Trade Openness,56.64274416,Tajikistan
+ Africa,Tanzania,1122.12181,Trade Openness,32.23894101,Tanzania
+Asia,Thailand,7808.192916,Trade Openness,110.2991956,Thailand
+Asia,Timor-Leste,1294.188934,Trade Openness,63.00654424,Timor-Leste
+ Africa,Togo,675.5422133,Trade Openness,71.24105441,Togo
+Pacific,Tonga,4364.015561,Trade Openness,98.22010474,Tonga
+Middle East & North Africa,Tunisia,3317.541013,Trade Openness,110.5351873,Tunisia
+Asia,Turkey,9042.492983,Trade Openness,61.39449997,Turkey
+Asia,Turkmenistan,6966.635411,Trade Openness,35.1633909,Turkmenistan
+ Africa,Uganda,776.7685759,Trade Openness,46.0188627,Uganda
+Europe,Ukraine,3659.031312,Trade Openness,90.17379013,Ukraine
+Middle East & North Africa,United Arab Emirates,43103.32306,Trade Openness,160.9360929,United Arab Emirates
+Europe,United Kingdom,42300.26713,Trade Openness,64.25367784,United Kingdom
+North America,United States of America,65118.35833,Trade Openness,26.38872679,United States of America
+Latin America & Caribbean,Uruguay,16190.12696,Trade Openness,41.03010203,Uruguay
+Asia,Uzbekistan,1724.841134,Trade Openness,73.0168778,Uzbekistan
+Pacific,Vanuatu,3058.065675,Trade Openness,97.94713623,Vanuatu
+Latin America & Caribbean,"Venezuela, RB",16054.49051,Trade Openness,48.09081353,"Venezuela, RB"
+Asia,Vietnam,2715.276036,Trade Openness,210.4002453,Vietnam
+ Africa,Zambia,1291.343357,Trade Openness,70.03503475,Zambia
+ Africa,Zimbabwe,1463.98591,Trade Openness,50.00536144,Zimbabwe
+Asia,Afghanistan,502.1154869,Trade Balance,-33.23,Afghanistan
+Europe,Albania,5352.857411,Trade Balance,-20.84,Albania
+Middle East & North Africa,Algeria,3948.343279,Trade Balance,-2.57,Algeria
+Latin America & Caribbean,Antigua and Barbuda,17790.30931,Trade Balance,-35.28,Antigua and Barbuda
+Latin America & Caribbean,Argentina,10006.14897,Trade Balance,3.55,Argentina
+Asia,Armenia,4622.733493,Trade Balance,-20.52,Armenia
+Pacific,Australia,54907.10191,Trade Balance,3.52,Australia
+Europe,Austria,50277.27509,Trade Balance,-1.33,Austria
+Asia,Azerbaijan,4793.58702,Trade Balance,18.8,Azerbaijan
+Latin America & Caribbean,"Bahamas, The",32933.48601,Trade Balance,-21.53,"Bahamas, The"
+Middle East & North Africa,Bahrain,23503.97713,Trade Balance,13.64,Bahrain
+Asia,Bangladesh,1855.739824,Trade Balance,-7.37,Bangladesh
+Latin America & Caribbean,Barbados,18148.24493,Trade Balance,-22.21,Barbados
+Europe,Belarus,6663.295293,Trade Balance,-7.6,Belarus
+Europe,Belgium,46116.69923,Trade Balance,3.5,Belgium
+Latin America & Caribbean,Belize,4815.163711,Trade Balance,-26.29,Belize
+ Africa,Benin,1219.432672,Trade Balance,-9.33,Benin
+Asia,Bhutan,3243.231126,Trade Balance,-17.12,Bhutan
+Latin America & Caribbean,Bolivia,3552.068762,Trade Balance,-2.56,Bolivia
+Europe,Bosnia and Herzegovina,6073.265203,Trade Balance,-22.86,Bosnia and Herzegovina
+ Africa,Botswana,7961.33814,Trade Balance,1.61,Botswana
+Latin America & Caribbean,Brazil,8717.186278,Trade Balance,2.71,Brazil
+Asia,Brunei Darussalam,31086.75108,Trade Balance,17.76,Brunei Darussalam
+Europe,Bulgaria,9737.601351,Trade Balance,-5.7,Bulgaria
+ Africa,Burkina Faso,774.8396902,Trade Balance,-8.01,Burkina Faso
+ Africa,Burundi,261.2474725,Trade Balance,-20.19,Burundi
+ Africa,Cabo Verde,3603.781794,Trade Balance,-37.43,Cabo Verde
+Asia,Cambodia,1643.121389,Trade Balance,-23.23,Cambodia
+ Africa,Cameroon,1497.909176,Trade Balance,-6.02,Cameroon
+North America,Canada,46194.72523,Trade Balance,-0.97,Canada
+ Africa,Central African Republic,467.9074406,Trade Balance,-15.34,Central African Republic
+ Africa,Chad,709.5403101,Trade Balance,9.18,Chad
+Latin America & Caribbean,Chile,14896.45387,Trade Balance,0.03,Chile
+Asia,China,10261.67913,Trade Balance,2.94,China
+Latin America & Caribbean,Colombia,6432.387583,Trade Balance,-4.09,Colombia
+ Africa,Comoros,1393.522372,Trade Balance,-19.86,Comoros
+ Africa,"Congo, Dem. Rep.",545.2162123,Trade Balance,9.34,"Congo, Dem. Rep."
+ Africa,"Congo, Rep.",2011.072399,Trade Balance,40.39,"Congo, Rep."
+Latin America & Caribbean,Costa Rica,12238.37496,Trade Balance,-7.03,Costa Rica
+ Africa,Cote d'Ivoire,2286.162777,Trade Balance,1.91,Cote d'Ivoire
+Europe,Croatia,14853.23984,Trade Balance,-17.62,Croatia
+Latin America & Caribbean,Cuba,8821.818891,Trade Balance,-8.78,Cuba
+Europe,Cyprus,27858.371,Trade Balance,-23.25,Cyprus
+Europe,Czech Republic,23101.7777,Trade Balance,8.21,Czech Republic
+Europe,Denmark,59822.09296,Trade Balance,3.73,Denmark
+Middle East & North Africa,Djibouti,3408.846254,Trade Balance,-24.09,Djibouti
+Latin America & Caribbean,Dominica,8300.375074,Trade Balance,-53.02,Dominica
+Latin America & Caribbean,Dominican Republic,8282.116222,Trade Balance,-10.85,Dominican Republic
+Latin America & Caribbean,Ecuador,6183.823825,Trade Balance,0,Ecuador
+Middle East & North Africa,"Egypt, Arab Rep.",3020.03135,Trade Balance,-17.37,"Egypt, Arab Rep."
+Latin America & Caribbean,El Salvador,4187.250031,Trade Balance,-22.74,El Salvador
+ Africa,Equatorial Guinea,8131.923888,Trade Balance,30.88,Equatorial Guinea
+ Africa,Eritrea,642.5076591,Trade Balance,-19.75,Eritrea
+Europe,Estonia,23659.87229,Trade Balance,-6.1,Estonia
+ Africa,Eswatini,3837.026994,Trade Balance,-15.7,Eswatini
+ Africa,Ethiopia,857.501351,Trade Balance,-39.25,Ethiopia
+Europe,Finland,48685.85399,Trade Balance,-0.07,Finland
+Europe,France,40493.92857,Trade Balance,-3,France
+ Africa,Gabon,7667.366861,Trade Balance,21.03,Gabon
+ Africa,"Gambia, The",751.2946884,Trade Balance,-29.5,"Gambia, The"
+Asia,Georgia,4769.186543,Trade Balance,-35.66,Georgia
+Europe,Germany,46258.87829,Trade Balance,6.63,Germany
+ Africa,Ghana,2202.115567,Trade Balance,2.76,Ghana
+Europe,Greece,19582.53601,Trade Balance,-11.64,Greece
+Europe,Greenland,54470.95639,Trade Balance,-6.96,Greenland
+Latin America & Caribbean,Grenada,10965.51316,Trade Balance,-36.76,Grenada
+Latin America & Caribbean,Guatemala,4619.987097,Trade Balance,-11.38,Guatemala
+ Africa,Guinea,1064.131237,Trade Balance,4.9,Guinea
+ Africa,Guinea-Bissau,697.7844029,Trade Balance,1.94,Guinea-Bissau
+Latin America & Caribbean,Guyana,5468.356629,Trade Balance,-24.02,Guyana
+Latin America & Caribbean,Haiti,754.5879177,Trade Balance,-38.76,Haiti
+Latin America & Caribbean,Honduras,2574.912191,Trade Balance,-15.25,Honduras
+Asia,"Hong Kong SAR, China",48755.83508,Trade Balance,-16.03,"Hong Kong SAR, China"
+Europe,Hungary,16475.74184,Trade Balance,2.35,Hungary
+Europe,Iceland,66944.82551,Trade Balance,-4.77,Iceland
+Asia,India,2104.1459,Trade Balance,-6.82,India
+Asia,Indonesia,4135.569263,Trade Balance,-0.29,Indonesia
+Middle East & North Africa,"Iran, Islamic Rep.",5520.310789,Trade Balance,12.47,"Iran, Islamic Rep."
+Middle East & North Africa,Iraq,5955.10901,Trade Balance,18.76,Iraq
+Europe,Ireland,78660.95646,Trade Balance,18.04,Ireland
+Middle East & North Africa,Israel,43641.39774,Trade Balance,-4.57,Israel
+Europe,Italy,33189.5658,Trade Balance,2.96,Italy
+Latin America & Caribbean,Jamaica,5582.263778,Trade Balance,-27.47,Jamaica
+Asia,Japan,40246.88013,Trade Balance,-0.3,Japan
+Middle East & North Africa,Jordan,4330.329346,Trade Balance,-29.7,Jordan
+Asia,Kazakhstan,9731.145207,Trade Balance,16.43,Kazakhstan
+ Africa,Kenya,1816.546916,Trade Balance,-12.88,Kenya
+Pacific,Kiribati,1655.078839,Trade Balance,-60.19,Kiribati
+Asia,"Korea, Rep.",31761.97769,Trade Balance,2.37,"Korea, Rep."
+Europe,Kosovo,4417.50994,Trade Balance,-27.5,Kosovo
+Middle East & North Africa,Kuwait,32031.9801,Trade Balance,25.65,Kuwait
+Asia,Kyrgyz Republic,1309.392992,Trade Balance,-42.69,Kyrgyz Republic
+Asia,Lao PDR,2534.898277,Trade Balance,-4.8,Lao PDR
+Europe,Latvia,17836.36489,Trade Balance,-9.67,Latvia
+Middle East & North Africa,Lebanon,7784.316857,Trade Balance,-29.25,Lebanon
+ Africa,Lesotho,1157.535164,Trade Balance,-36.81,Lesotho
+ Africa,Liberia,621.8929536,Trade Balance,-19.29,Liberia
+Middle East & North Africa,Libya,7683.750611,Trade Balance,24.77,Libya
+Europe,Lithuania,19455.45413,Trade Balance,-4.58,Lithuania
+Europe,Luxembourg,114704.5942,Trade Balance,-10.53,Luxembourg
+ Africa,Madagascar,522.2198092,Trade Balance,-6.86,Madagascar
+ Africa,Malawi,411.5523404,Trade Balance,-27.26,Malawi
+Asia,Malaysia,11414.83766,Trade Balance,8.32,Malaysia
+Asia,Maldives,10790.50024,Trade Balance,-49.19,Maldives
+ Africa,Mali,890.7372855,Trade Balance,-6.72,Mali
+Middle East & North Africa,Malta,29416.23061,Trade Balance,-27.3,Malta
+Pacific,Marshall Islands,3788.163594,Trade Balance,-14.91,Marshall Islands
+ Africa,Mauritania,1677.919253,Trade Balance,-13.53,Mauritania
+ Africa,Mauritius,11203.54058,Trade Balance,-23.19,Mauritius
+Latin America & Caribbean,Mexico,9863.072699,Trade Balance,-0.49,Mexico
+Europe,Moldova,4498.52085,Trade Balance,-27,Moldova
+Asia,Mongolia,4295.235025,Trade Balance,8.7,Mongolia
+Europe,Montenegro,8832.036836,Trade Balance,-46.17,Montenegro
+Middle East & North Africa,Morocco,3204.095003,Trade Balance,-18.91,Morocco
+ Africa,Mozambique,491.8047231,Trade Balance,-13.42,Mozambique
+Asia,Myanmar,1407.813143,Trade Balance,-3.9,Myanmar
+ Africa,Namibia,4957.458006,Trade Balance,-20.35,Namibia
+Asia,Nepal,1071.050761,Trade Balance,-41.07,Nepal
+Europe,Netherlands,52447.83144,Trade Balance,8.16,Netherlands
+Pacific,New Zealand,42084.35337,Trade Balance,-1.31,New Zealand
+Latin America & Caribbean,Nicaragua,1912.903745,Trade Balance,-12.31,Nicaragua
+ Africa,Niger,554.6009687,Trade Balance,-11.6,Niger
+ Africa,Nigeria,2229.858696,Trade Balance,4.4,Nigeria
+Europe,North Macedonia,6093.14769,Trade Balance,-16.86,North Macedonia
+Europe,Norway,75419.63487,Trade Balance,4.38,Norway
+Middle East & North Africa,Oman,15474.03248,Trade Balance,20.17,Oman
+Asia,Pakistan,1284.702041,Trade Balance,-11.65,Pakistan
+Pacific,Palau,15859.43486,Trade Balance,-51.34,Palau
+Latin America & Caribbean,Panama,15731.01603,Trade Balance,-17.72,Panama
+Pacific,Papua New Guinea,2845.180186,Trade Balance,29.81,Papua New Guinea
+Latin America & Caribbean,Paraguay,5414.799138,Trade Balance,-10.25,Paraguay
+Latin America & Caribbean,Peru,6977.695784,Trade Balance,2.58,Peru
+Asia,Philippines,3485.084218,Trade Balance,-15.12,Philippines
+Europe,Poland,15595.22703,Trade Balance,0.34,Poland
+Europe,Portugal,23145.04082,Trade Balance,-9.6,Portugal
+Middle East & North Africa,Qatar,64781.7332,Trade Balance,27.48,Qatar
+Europe,Romania,12919.52964,Trade Balance,-7.87,Romania
+Europe,Russia,11584.99538,Trade Balance,9.69,Russia
+ Africa,Rwanda,801.656187,Trade Balance,-13.93,Rwanda
+Pacific,Samoa,4315.920675,Trade Balance,-36.75,Samoa
+Latin America & Caribbean,St. Kitts and Nevis,19896.4957,Trade Balance,-28.6,St. Kitts and Nevis
+Latin America & Caribbean,St. Vincent and the Grenadines,7463.537831,Trade Balance,-38.07,St. Vincent and the Grenadines
+Middle East & North Africa,Saudi Arabia,23139.79866,Trade Balance,15.98,Saudi Arabia
+ Africa,Senegal,1446.830965,Trade Balance,-18.93,Senegal
+Europe,Serbia,7402.354559,Trade Balance,-11.67,Serbia
+ Africa,Seychelles,17401.72151,Trade Balance,-44.13,Seychelles
+ Africa,Sierra Leone,504.4625434,Trade Balance,-19.59,Sierra Leone
+Asia,Singapore,65233.28244,Trade Balance,8.47,Singapore
+Europe,Slovak Republic,19329.0968,Trade Balance,-0.45,Slovak Republic
+Europe,Slovenia,25739.24781,Trade Balance,1.67,Slovenia
+Pacific,Solomon Islands,2127.538508,Trade Balance,-5.87,Solomon Islands
+ Africa,Somalia,126.9249205,Trade Balance,-41.1,Somalia
+ Africa,South Africa,6001.400814,Trade Balance,-4.99,South Africa
+ Africa,South Sudan,1119.651333,Trade Balance,2.2,South Sudan
+Europe,Spain,29613.67114,Trade Balance,-2.75,Spain
+Asia,Sri Lanka,3853.083693,Trade Balance,-11.63,Sri Lanka
+ Africa,Sudan,441.5056034,Trade Balance,-10.69,Sudan
+Latin America & Caribbean,Suriname,6854.906561,Trade Balance,15.24,Suriname
+Europe,Sweden,51610.06606,Trade Balance,0.34,Sweden
+Europe,Switzerland,81993.72715,Trade Balance,5.21,Switzerland
+Middle East & North Africa,Syrian Arab Republic,2032.623489,Trade Balance,-20.42,Syrian Arab Republic
+Asia,Taiwan,"29,910",Trade Balance,8.4,Taiwan
+Asia,Tajikistan,870.7875893,Trade Balance,-27.62,Tajikistan
+ Africa,Tanzania,1122.12181,Trade Balance,-7.13,Tanzania
+Asia,Thailand,7808.192916,Trade Balance,0.94,Thailand
+Asia,Timor-Leste,1294.188934,Trade Balance,-30.27,Timor-Leste
+ Africa,Togo,675.5422133,Trade Balance,-19.95,Togo
+Pacific,Tonga,4364.015561,Trade Balance,-44.5,Tonga
+Middle East & North Africa,Tunisia,3317.541013,Trade Balance,-17.99,Tunisia
+Asia,Turkey,9042.492983,Trade Balance,-4.13,Turkey
+Asia,Turkmenistan,6966.635411,Trade Balance,17.72,Turkmenistan
+ Africa,Uganda,776.7685759,Trade Balance,-12.95,Uganda
+Europe,Ukraine,3659.031312,Trade Balance,-7.41,Ukraine
+Middle East & North Africa,United Arab Emirates,43103.32306,Trade Balance,13.37,United Arab Emirates
+Europe,United Kingdom,42300.26713,Trade Balance,-7.81,United Kingdom
+North America,United States of America,65118.35833,Trade Balance,-4.31,United States of America
+Latin America & Caribbean,Uruguay,16190.12696,Trade Balance,-2.33,Uruguay
+Asia,Uzbekistan,1724.841134,Trade Balance,-12.06,Uzbekistan
+Pacific,Vanuatu,3058.065675,Trade Balance,-31.4,Vanuatu
+Latin America & Caribbean,"Venezuela, RB",16054.49051,Trade Balance,23.1,"Venezuela, RB"
+Asia,Vietnam,2715.276036,Trade Balance,2.83,Vietnam
+ Africa,Zambia,1291.343357,Trade Balance,-1.6,Zambia
+ Africa,Zimbabwe,1463.98591,Trade Balance,0.93,Zimbabwe
