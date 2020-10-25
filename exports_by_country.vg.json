@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Exports by Country",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trading_Partners.csv"
+        },
+        "key": "Country",
+        "fields": ["Exports"]
+      }
+    },
+    {"calculate": "datum.Exports", "as": "Exports"}
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Exports",
+      "type": "nominal",
+      "scale": {
+        "domain": ["European Union", "United States",  "China", "Other","Brazil", "India","Russia"],
+        "range": ["#2129cc", "#6a0c87","#ab0707", "#d1cfcf", "#d18e2a", "#1ba7d1","#a80fa6"]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Exports", "type": "nominal"}
+    ]
+  }
+}
