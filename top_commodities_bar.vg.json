@@ -13,7 +13,7 @@
       "tooltip": {"field": "Value", "type": "quantitative", "title": "Value (Billions USD)"}
   },
   "layer": [{
-    "mark": {"type": "bar", "color": "#eba134"},
+    "mark": {"type": "bar", "color": ""#ffa10a""},
     "encoding": {
       "x": {
         "field": "%_of_trade",
