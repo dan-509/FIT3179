@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 300,
+  "height": {"step": 16},
+  "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Traded_commodities.csv"},
+  "encoding": {
+    "y": {
+      "field": "Item",
+      "type": "nominal",
+      "sort": {"op": "sum", "field": "people"},
+      "axis": null
+    },
+      "tooltip": {"field": "Value", "type": "quantitative", "title": "Value (Billions USD)"}
+  },
+  "layer": [{
+    "mark": {"type": "bar", "color": "#eba134"},
+    "encoding": {
+      "x": {
+        "field": "%_of_trade",
+        "type": "quantitative",
+        "title": "% of Total Trade",
+        "axis":{"grid": false}
+      }
+    }
+  }, {
+    "mark": {"type": "text", "align": "left", "x": 5},
+    "encoding": {
+      "text": {"field": "Item"},
+      "detail": {"aggregate": "count"}
+    }
+  }]
+}
