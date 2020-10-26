@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/trade_openness_by_region.csv"},
+  "mark": "line",
+  "width": 450,
+  "title": "Trade Openness by Region",
+  "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Region"],
+          "bind": "legend"
+        }},
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}, "title": null},
+    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false}, "title":"Percent. of GDP"},
+    "color": {"field": "Region", "type": "nominal"},
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.8},
+          "value": 0.1
+        },
+        "tooltip": {"field": "Value", "title": "%", "type": "quantitative"}
+  }
+}
