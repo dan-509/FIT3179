@@ -66,22 +66,15 @@
           "type": "nominal",
           "scale": {
             "domain": [
-              "North America",
+              "Pacific",
+              "Europe",
               "Latin America & Caribbean",
               "Middle East & North Africa",
-              "Europe",
-              " Africa",
+              "North America",
               "Asia",
-              "Pacific"
-            ],
+              " Africa"],
             "range": [
-              "#e41a1c",
-              "#25b5c2",
-              "#ff7f00",
-              "#1a2dba",
-              "#b8b52e",
-              "#a65628",
-              "purple"
+              "#f54242","#ffa10a","gold","#37bdbd","#1913bf","#7d0a75","#80a6f2"
             ]
           }
         },
@@ -137,7 +130,7 @@
  "color": {"value": "black"},
  "opacity": {
  "condition": {
- "test": "datum['Country'] == 'China' || datum['Country'] == 'Singapore' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand'|| datum['Country'] == 'United States'",
+ "test": "datum['Country'] == 'China' || datum['Country'] == 'Singapore' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand'|| datum['Country'] == 'United States of America'",
  "value": 1
  },
  "value": 0
