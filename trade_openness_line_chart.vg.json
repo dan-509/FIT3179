@@ -13,8 +13,8 @@
         }},
   "encoding": {
     "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}, "title": null},
-    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false}, "title":"Percent. of GDP"},
-    "color": {"field": "Region", "type": "nominal"},
+    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false}, "title":"Percent of GDP"},
+    "color": {"field": "Region", "type": "nominal", "scale": {"range":["#f54242","#ffa10a","gold","#37bdbd","#1913bf","#7d0a75","#80a6f2"]}},
         "opacity": {
           "condition": {"selection": "continent_highlight", "value": 0.8},
           "value": 0.1
