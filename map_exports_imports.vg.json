@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Exports & Imports by Country",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "params": [
+    {
+      "name": "IndicatorSel",
+      "value":"Exports",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Exports", "Imports"],
+        "labels": [
+          "Exports",
+          "Imports"
+        ],
+        "name": "Indicator: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trading_Partners.csv"
+        },
+        "key": "Country",
+        "fields": ["Place"]
+      }
+    },{
+      "filter": "IndicatorSel == 'Imports' || datum.Indicator == IndicatorSel"
+    },
+    {"calculate": "datum.Place", "as": "Place"}
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Place",
+      "type": "nominal",
+      "scale": {
+        "domain": ["European Union", "United States",  "China", "Other","Brazil", "India","Russia"],
+        "range": ["#57a8e6", "#db4de8","#e33d3d", "#d1cfcf", "#e3d649", "#3771e6","#e68181"]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Place", "type": "nominal"}
+    ]
+  }
+}
