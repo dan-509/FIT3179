@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -11,32 +12,47 @@
   <link rel="stylesheet" type="text/css" href="styles.css" media="all">
   <title>World Trade</title>
 </head>
+  
 <body>
-<h1>World Trade</h1>
-<br />
-<h2>Trade Balance as % of GDP Chloropleth Map</h2>
-<h3>(Trade Balance is defined as sum of exports, minus sum of imports)</h3>
-<div id="trade_balance_bar"></div>
+  
+  <div id="Header">
+    <h1>World Trade</h1>
+  </div>
+  <br />
+  <div id="Trade_Balance_Bar_Title">
+    <h2>Trade Balance as % of GDP</h2>
+    <h3>(Trade Balance is defined as sum of exports, minus sum of imports)</h3>
+  </div>
+  
+  <div id="trade_balance_bar"></div>
+  
+  <div id="trade_balance_explanation">
+    <h3>What is 'Trade Balance'?</h3>
+    <p>Trade Balance is used to measure the relative strength of a country's economy.
+      It is calculated as the sum of the country's exports, minus its imports.
+      This graph normalises the trade balance, by using the trade balance as a percentage country's GDP (Gross Domestic Product).
+      In general, the higher the percentage is, the better.</p>
+  </div>
 
-<br />  
-<h2>Trade Balance as % of GDP Bar Chart</h2>
-<div id="trade_balance"></div>
-  
-<script type="text/javascript">
+  <br />  
+  <h2>Trade Balance as % of GDP Chloropleth Map</h2>
+  <div id="trade_balance"></div>
 
-  var spec1 = "trade_balance.vg.json";
-  
-  vegaEmbed('#trade_balance', spec1).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  
-  
-  var spec2 = "trade_balance_bar.vg.json";
-  
-  vegaEmbed('#trade_balance_bar', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error)  
-</script>
+  <script type="text/javascript">
+
+    var spec1 = "trade_balance.vg.json";
+
+    vegaEmbed('#trade_balance', spec1).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+
+    var spec2 = "trade_balance_bar.vg.json";
+
+    vegaEmbed('#trade_balance_bar', spec2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error)  
+  </script>
 
 </body>
 </html>
