@@ -1,11 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 800,
-  "height": 550,
+  "width": 600,
+  "height": 500,
   "title": "Trade Indicators vs. GDP per Capita",
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_imports_exports.csv"
   },
+  "config": {"view": {"stroke": "transparent"}},
   "params": [
     {
       "name": "Indicator",
