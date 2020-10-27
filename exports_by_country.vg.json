@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Exports by Country",
+  "title": "Imports by Country",
   "width": 800,
   "height": 600,
   "data": {
@@ -15,25 +15,25 @@
           "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trading_Partners.csv"
         },
         "key": "Country",
-        "fields": ["Exports"]
+        "fields": ["Imports"]
       }
     },
-    {"calculate": "datum.Exports", "as": "Exports"}
+    {"calculate": "datum.Imports", "as": "Imports"}
   ],
   "projection": {"type": "equirectangular"},
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Exports",
+      "field": "Imports",
       "type": "nominal",
       "scale": {
-        "domain": ["European Union", "United States",  "China", "Other","Brazil", "India","Russia"],
-        "range": ["#2129cc", "#6a0c87","#ab0707", "#d1cfcf", "#d18e2a", "#1ba7d1","#a80fa6"]
+        "domain": ["European Union", "United States",  "South Africa", "China", "Other"],
+        "range": ["#57a8e6", "#db4de8", "#e39149","#e33d3d", "#d1cfcf"]
       }
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Exports", "type": "nominal"}
+      {"field": "Imports", "type": "nominal"}
     ]
   }
 }
