@@ -1,9 +1,10 @@
+
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Stock prices of 5 Tech Companies over Time.",
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/trade_openness_by_region.csv"},
   "mark": "line",
-  "width": 450,
+  "width": 400,
   "title": "Trade Openness by Region",
   "selection": {
         "continent_highlight": {
@@ -11,10 +12,12 @@
           "fields": ["Region"],
           "bind": "legend"
         }},
+        "config": {"view": {"stroke": "transparent"}},
   "encoding": {
-    "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}, "title": null},
-    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false}, "title":"Percent of GDP"},
-    "color": {"field": "Region", "type": "nominal", "scale": {"range":["#f54242","#ffa10a","gold","#37bdbd","#1913bf","#7d0a75","#80a6f2"]}},
+    "x": {"field": "Year", "type": "temporal", "axis": {"grid": false, "domainOpacity": 0, "ticks": false}, "title": null},
+    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false,"domainOpacity": 0, "ticks": false}, "title":"Percent of GDP"},
+    "color": {"field": "Region", "type": "nominal", "scale": {
+ "domain": ["Latin America & Caribbean","North America","Africa","East Asia & Pacific","Europe & Central Asia","South Asia", "Middle East & North Africa"],"range": ["#f54242","#ffa10a","gold","#1913bf","#80a6f2","#7d0a75", "#03dffc"]}},
         "opacity": {
           "condition": {"selection": "continent_highlight", "value": 0.8},
           "value": 0.1
