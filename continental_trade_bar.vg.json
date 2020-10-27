@@ -17,15 +17,12 @@
     }
   ],
   "transform": [
-
-    {
-      "filter": "Year == null || datum.Year == Year"
-    }
+    {"filter": "Year == null || datum.Year == Year"}
   ],
   "encoding": {
     "x": {"aggregate": "sum",
       "field": "World", "axis": {"grid": false,
-      "ticks": false, "zindex": 1}, "stack":  "normalize"},
+      "ticks": false, "zindex": 1}, "stack":  "normalize", "title": null},
     "y": {
       "field": "Continent",
       "type": "nominal", "title": null, "axis": {"grid": false, "domainWidth": 1.5, "domainColor": "black", "ticks": false, "zindex": 1}}
@@ -37,12 +34,12 @@
        
         "color": {
           "field": "Intra-Group",
-          "type": "nominal","title": "Trade Type", "scale": {"domain": ["Intra", "Extra"], "range": ["#bf0b0b", "#f2ac6b"]}
+          "type": "nominal","title": "Trade Type", "scale": {"domain": ["Intra", "Extra"], "range": ["gold","#37bdbd"]}
         },
     
         "tooltip": [
           {"field": "Continent", "type": "nominal"},
-          {"field": "World", "type": "quantitative", "format": ".2f", "title": "GDP per Capita (USD)"}
+          {"field": "World", "type": "quantitative", "format": ".2f", "title": "Trade (USD)"}
         ]
       }
     }
