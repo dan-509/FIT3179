@@ -3,7 +3,7 @@
   "width": 300,
   "height": {"step": 16},
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Traded_commodities.csv"},
-  "config": {"view": {"stroke": "transparent"}}
+  "config": {"view": {"stroke": "transparent"}},
   "encoding": {
     "y": {
       "field": "Item",
