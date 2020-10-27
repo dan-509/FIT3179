@@ -1,3 +1,10 @@
+#Container {
+	width: 1300px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+
+
 #trade_balance {
 	left: 100px;
 	right: 100px;
@@ -6,11 +13,20 @@
 }
 
 #trade_balance_bar {
-	left: 300px;
-	right: 0px;
+	float: right;
+	padding: 20px 25px 50px 25px;
 	/*height: 1000px;
 	width: 800px;*/
 }
+
+#trade_balance_explanation {
+	width: 250px;
+	float: left;
+	padding: 20px 5px 50px 20px
+	/*height: 1000px;
+	width: 800px;*/
+}
+
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
