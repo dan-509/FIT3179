@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 400,
-  "height": 350,
+  "height": 300,
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Traded_commodities.csv"},
   "config": {"view": {"stroke": "transparent"}},
   "encoding": {
