@@ -9,9 +9,8 @@
       "field": "Item",
       "type": "nominal",
       "sort": {"op": "sum", "field": "people"},
-      "axis": null
-    },
-      "tooltip": {"field": "Value", "type": "quantitative", "title": "Value (Billions USD)"}
+      "axis": null},
+      "tooltip": {"field": "%_of_trade", "type": "quantitative", "title": "Percentage of Total Trade"}
   },
   "layer": [{
     "mark": {"type": "bar", "color": "#ffa10a"},
@@ -20,7 +19,7 @@
         "field": "%_of_trade",
         "type": "quantitative",
         "title": "% of Total Trade",
-        "axis":{"grid": false}
+        "axis":{"grid": false, "domainOpacity": 0}
       }
     }
   }, {
