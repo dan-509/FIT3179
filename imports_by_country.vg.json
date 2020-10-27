@@ -12,7 +12,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trading_Partners.csv"
+          "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trading_Partners_x.csv"
         },
         "key": "Country",
         "fields": ["Imports"]
