@@ -30,7 +30,7 @@
     "y": {
       "field": "Country",
       "type": "nominal",
-      "sort": {"op": "sum", "field": "people"},
+      "sort": "-x",
       "axis": null},
       "tooltip": {"field": "Value", "type": "quantitative", "title": "Percentage of Total Trade"}
   },
