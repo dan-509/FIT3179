@@ -5,6 +5,7 @@
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/trade_openness_by_region.csv"},
   "mark": "line",
   "width": 400,
+  "height": 300,
   "title": "Trade Openness by Region",
   "selection": {
         "continent_highlight": {
