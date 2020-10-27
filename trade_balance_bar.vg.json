@@ -1,11 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 800,
-  "height":400,
+  "width": 750,
+  "height":375,
   "autosize": {
     "type": "fit"
   },
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trade_Balance.csv"},
+  "config": {
+  "view": {
+     "stroke": "transparent"
+  }
+},
   
   "layer": [  
     {
@@ -23,14 +28,14 @@
           "axis": {
             "labels": false,
             "ticks": false,
-            "title": ""
-          }
+            "title": "",
+            "grid": false, "domainOpacity": 0}
 
         },
         "y": {
           "field": "percentGDP",
           "type": "quantitative",
-          "axis": {"title": "Trade Balance as % of GDP"}
+          "axis": {"title": "Trade Balance as % of GDP","grid": false}
         },
         "color": {"field": "Region", 
         "scale": {"range": ["#f54242","#ffa10a","gold","#37bdbd","#1913bf","#7d0a75","#80a6f2"]}},
