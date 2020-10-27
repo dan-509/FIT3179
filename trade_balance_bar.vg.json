@@ -1,4 +1,4 @@
-{
+ {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 950,
   "height":375,
@@ -15,7 +15,7 @@
   "layer": [  
     {
       "mark": "bar",
-      "title": "Trade Balances of World's Countries",
+      "title": {"text": "Trade Balance as % of GDP","fontSize": 25, "dy": 33, "fontWeight":549, "dx": -200},
       "selection": {
         "industry": {
           "type": "multi", "fields": ["Region"], "bind": "legend"},  "grid":{"type": "interval", "bind": "scales"
