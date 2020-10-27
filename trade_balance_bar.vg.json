@@ -1,19 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 800,
-  "height":600,
+  "width": 1000,
+  "height":400,
   "autosize": {
     "type": "fit"
   },
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Trade_Balance.csv"},
-  "layer": [
+  
+  "layer": [  
     {
       "mark": "bar",
       "title": "Trade Balances of World's Countries",
       "selection": {
         "industry": {
-          "type": "multi", "fields": ["Region"], "bind": "legend"}
-      },
+          "type": "multi", "fields": ["Region"], "bind": "legend"},  "grid":{"type": "interval", "bind": "scales"
+    }},
       "encoding": {
         "x": {
           "field": "Country",
@@ -38,16 +39,6 @@
       "value": 0.1},
         "tooltip": [{"field": "Country", "type": "nominal"},{"field": "Region", "type": "nominal"}, {"field": "percentGDP", "type": "quantitative", "title": "Trade Balance as % of GDP"}]
       }
-    },
-    {
-      "mark": { "type": "rule" },
-      "data": {"values": {"y": 1}},
-      "encoding": 
-        {"y": { "value": 231 },
-        "color": {"value": "black"},
-        "size": {"value": 2}
-      }
-      
     }
   ]
 }
