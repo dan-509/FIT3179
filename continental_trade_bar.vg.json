@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 400,
+  "width": 500,
   "height": 250,
   "autosize": {"contains": "padding"},
   "title": "Intra-Continental vs. Extra-Continental Trade",
