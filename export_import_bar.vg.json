@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 300,
+  "height": {"step": 16},
+  "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/export_import_bar.csv"},
+  "config": {"view": {"stroke": "transparent"}},
+  "params": [
+    {
+      "name": "Indicator",
+      "value":"Exports",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Exports",
+          "Imports"],
+        "labels": [
+          "Exports",
+          "Imports"],
+        "name": "Indicator: "
+      }
+    }
+  ],
+  "transform": [
+
+    {
+      "filter": "Indicator == datum.Exports || datum.Indicator == Indicator"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "sort": {"op": "sum", "field": "people"},
+      "axis": null},
+      "tooltip": {"field": "Value", "type": "quantitative", "title": "Percentage of Total Trade"}
+  },
+  "layer": [{
+    "mark": {"type": "bar", "color": "#ffa10a"},
+    "encoding": {
+      "x": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Trade (x10^6 USD)",
+        "axis":{"grid": false, "domainOpacity": 0}
+      }
+    }
+  }, {
+    "mark": {"type": "text", "align": "left", "x": 5},
+    "encoding": {
+      "text": {"field": "Country"},
+      "detail": {"aggregate": "count"}
+    }
+  }]
+}
