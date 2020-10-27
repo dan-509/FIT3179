@@ -29,7 +29,7 @@
   "encoding": {
     "y": {
       "field": "Country",
-      "type": "nominal"
+      "type": "nominal",
       "axis": null},
       "tooltip": {"field": "Value", "type": "quantitative", "title": "Percentage of Total Trade"}
   },
