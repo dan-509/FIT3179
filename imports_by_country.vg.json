@@ -5,8 +5,8 @@
   "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-  },
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}},
+  "config": {"view": {"stroke": "transparent"}},
   "transform": [
     {
       "lookup": "properties.NAME",
