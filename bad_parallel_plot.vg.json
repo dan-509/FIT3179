@@ -4,8 +4,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/parallel_plot.csv"
   },
-  "width": 600,
-  "height": 300,
+  "width": 400,
+  "height": 500,
   "transform": [
     {"filter": "datum['Tariffs (%)']"},
     {"window": [{"op": "count", "as": "index"}]},
