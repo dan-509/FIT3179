@@ -98,7 +98,7 @@
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-2">
-        <h2>Top Import per Country</h2>
+        <div id="vis4"  class="vis-container"></div>
       </div>
       <div class="pure-u-1-2">
         <div id="vis3"  class="vis-container"></div>
@@ -109,8 +109,7 @@
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h3>World Trade</h3>
-        <h5>How Does Trade of the World's Continents Compare?</h5>
+        <h2>How Does Trade of the World's Continents Compare?</h2>
       </div>
     </div>
   <!-- end pure grid group -->
@@ -129,6 +128,7 @@
   var specVis2= "top_commodities_bar.vg.json";
   var specVis3= "imports_by_country.vg.json";
   var specVis4= "export_import_bar.vg.json";
+  var specVis5= "import_item_map.vg.json";
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -142,7 +142,7 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#vis4', specVis2, {"actions": false}).then(function(result) {
+  vegaEmbed('#vis4', specVis5, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
           
