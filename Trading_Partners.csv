@@ -1,198 +1,395 @@
-﻿Country,Exports,Imports
-Afghanistan,Other,Other
-Albania,European Union,European Union
-Algeria,European Union,European Union
-Andorra,European Union,European Union
-Angola,China,European Union
-Antigua and Barbuda,United States,United States
-Argentina,Brazil,Other
-Armenia,European Union,Other
-Australia,China,China
-Austria,European Union,European Union
-Azerbaijan,European Union,European Union
-Bahamas,United States,United States
-Bahrain,Other,European Union
-Bangladesh,European Union,China
-Barbados,United States,United States
-Belarus,Russia,Other
-Belgium,European Union,European Union
-Belize,European Union,United States
-Benin,India,European Union
-Bhutan,India,Other
-Bolivia,Brazil,China
-Bosnia and Herz.,European Union,European Union
-Botswana,European Union,South Africa
-Brazil,China,European Union
-Brunei,Other,Other
-Bulgaria,European Union,European Union
-Burkina Faso,Other,European Union
-Burundi,Other,European Union
-Cambodia,European Union,China
-Cameroon,European Union,European Union
-Canada,United States,United States
-Côte d'Ivoire,European Union,European Union
-Central African Rep.,European Union,European Union
-Chad,United States,European Union
-Chile,China,China
-China,United States,European Union
-Colombia,United States,United States
-Comoros,European Union,European Union
-Costa Rica,United States,United States
-Croatia,European Union,European Union
-Cuba,Russia,China
-Cyprus,European Union,European Union
-Czechia,European Union,European Union
-Dem. Rep. Congo,China,European Union
-Denmark,European Union,European Union
-Djibouti,Other,European Union
-Dominica,Other,United States
-Dominican Rep.,United States,United States
-Ecuador,United States,United States
-Egypt,European Union,European Union
-El Salvador,United States,United States
-Eq. Guinea,European Union,European Union
-Eritrea,China,European Union
-Estonia,European Union,European Union
-Ethiopia,European Union,China
-Fiji,United States,Other
-Finland,European Union,European Union
-France,European Union,European Union
-Gabon,United States,European Union
-Georgia,European Union,European Union
-Germany,European Union,European Union
-Ghana,European Union,European Union
-Greece,European Union,European Union
-Grenada,Other,United States
-Greenland,European Union,European Union
-Guatemala,United States,United States
-Guinea,European Union,European Union
-Guinea-Bissau,India,European Union
-Guyana,Other,Other
-Haiti,United States,United States
-Honduras,United States,United States
-Hong Kong,China,China
-Hungary,European Union,European Union
-Iceland,European Union,European Union
-India,European Union,China
-Indonesia,China,China
-Iran,China,Other
-Iraq,China,China
-Ireland,European Union,European Union
-Israel,United States,European Union
-Italy,European Union,European Union
-Ivory Coast,European Union,European Union
-Jamaica,United States,United States
-Japan,United States,China
-Jordan,United States,European Union
-Kazakhstan,European Union,Other
-Kenya,European Union,Other
-Kiribati,Other,Other
-Kosovo,European Union,European Union
-Kuwait,Other,European Union
-Kyrgyzstan,Other,China
-Laos,Other,Other
-Latvia,European Union,European Union
-Lebanon,Other,European Union
-Lesotho,Other,South Africa
-Liberia,European Union,Other
-Libya,European Union,European Union
-Liechtenstein,European Union,European Union
-Lithuania,European Union,European Union
-Luxembourg,European Union,European Union
- Macau,Other,Other
-Madagascar,European Union,China
-Malawi,European Union,South Africa
-Malaysia,Other,China
-Maldives,European Union,Other
-Mali,Other,Other
-Malta,European Union,European Union
-Mauritania,China,European Union
-Mauritius,European Union,European Union
-Mexico,United States,United States
- Federated States of Micronesia,Other,United States
-Moldova,European Union,European Union
-Monaco,European Union,European Union
-Mongolia,China,China
-Montenegro,European Union,European Union
-Morocco,European Union,European Union
-Mozambique,European Union,South Africa
-Myanmar,China,China
-Namibia,Other,South Africa
-Nepal,India,Other
-Netherlands,European Union,European Union
-New Zealand,China,China
-Nicaragua,United States,United States
-Niger,European Union,European Union
-Nigeria,European Union,European Union
-North Korea,China,China
-North Macedonia,European Union,European Union
-Norway,European Union,European Union
-Oman,China,Other
-Pakistan,European Union,China
- State of Palestine,Other,Other
-Panama,European Union,United States
-Papua New Guinea,Other,Other
-Paraguay,Brazil,China
-Peru,China,China
-Philippines,Other,China
-Poland,European Union,European Union
-Portugal,European Union,European Union
-Qatar,Other,European Union
-Congo,China,European Union
-Romania,European Union,European Union
-Russia,European Union,European Union
-Rwanda,Other,China
-Saint Kitts and Nevis,United States,United States
-Saint Lucia,United States,United States
-Saint Vincent and the Grenadines,Other,United States
-Samoa,Other,Other
-San Marino,European Union,European Union
-Sao Tome and Principe,European Union,European Union
-Saudi Arabia,China,European Union
-Senegal,Other,European Union
-Serbia,European Union,European Union
-Seychelles,European Union,European Union
-Sierra Leone,Other,European Union
-Singapore,China,China
-Slovakia,European Union,European Union
-Slovenia,European Union,European Union
-Solomon Islands,China,Other
-Somalia,Other,Other
-Somaliland,Other,Other
-South Africa,European Union,European Union
-South Korea,China,China
-S. Sudan,Other,Other
-Spain,European Union,European Union
-Sri Lanka,European Union,China
-Sudan,China,China
-Suriname,United States,United States
-Swaziland,Other,South Africa
-Sweden,European Union,European Union
-Switzerland,European Union,European Union
-Syria,European Union,European Union
-Taiwan,China,China
-Tajikistan,Other,Other
-Tanzania,Other,Other
-Thailand,United States,China
-The Gambia,Other,European Union
-Timor-Leste,Other,Other
-Togo,Other,European Union
-Tonga,Other,Other
-Trinidad and Tobago,United States,United States
-Tunisia,European Union,European Union
-Turkey,European Union,European Union
-Turkmenistan,China,Other
-Uganda,European Union,Other
-Ukraine,European Union,European Union
-United Arab Emirates,European Union,European Union
-United Kingdom,European Union,European Union
-United States of America,European Union,China
-Uruguay,Brazil,China
-Uzbekistan,Other,China
-Vanuatu,Other,Other
-Venezuela,United States,United States
-Vietnam,United States,China
-Yemen,Other,Other
-Zambia,Other,Other
-Zimbabwe,Other,South Africa
-W. Sahara,Other,South Africa
+﻿Country,Indicator,Place
+Afghanistan,Exports,Other
+Albania,Exports,European Union
+Algeria,Exports,European Union
+Andorra,Exports,European Union
+Angola,Exports,China
+Antigua and Barbuda,Exports,United States
+Argentina,Exports,Brazil
+Armenia,Exports,European Union
+Australia,Exports,China
+Austria,Exports,European Union
+Azerbaijan,Exports,European Union
+Bahamas,Exports,United States
+Bahrain,Exports,Other
+Bangladesh,Exports,European Union
+Barbados,Exports,United States
+Belarus,Exports,Russia
+Belgium,Exports,European Union
+Belize,Exports,European Union
+Benin,Exports,India
+Bhutan,Exports,India
+Bolivia,Exports,Brazil
+Bosnia and Herz.,Exports,European Union
+Botswana,Exports,European Union
+Brazil,Exports,China
+Brunei,Exports,Other
+Bulgaria,Exports,European Union
+Burkina Faso,Exports,Other
+Burundi,Exports,Other
+Cambodia,Exports,European Union
+Cameroon,Exports,European Union
+Canada,Exports,United States
+Côte d'Ivoire,Exports,European Union
+Central African Rep.,Exports,European Union
+Chad,Exports,United States
+Chile,Exports,China
+China,Exports,United States
+Colombia,Exports,United States
+Comoros,Exports,European Union
+Costa Rica,Exports,United States
+Croatia,Exports,European Union
+Cuba,Exports,Russia
+Cyprus,Exports,European Union
+Czechia,Exports,European Union
+Dem. Rep. Congo,Exports,China
+Denmark,Exports,European Union
+Djibouti,Exports,Other
+Dominica,Exports,Other
+Dominican Rep.,Exports,United States
+Ecuador,Exports,United States
+Egypt,Exports,European Union
+El Salvador,Exports,United States
+Eq. Guinea,Exports,European Union
+Eritrea,Exports,China
+Estonia,Exports,European Union
+Ethiopia,Exports,European Union
+Fiji,Exports,United States
+Finland,Exports,European Union
+France,Exports,European Union
+Gabon,Exports,United States
+Georgia,Exports,European Union
+Germany,Exports,European Union
+Ghana,Exports,European Union
+Greece,Exports,European Union
+Greenalnd,Exports,European Union
+Grenada,Exports,Other
+Guatemala,Exports,United States
+Guinea,Exports,European Union
+Guinea-Bissau,Exports,India
+Guyana,Exports,Other
+Haiti,Exports,United States
+Honduras,Exports,United States
+Hong Kong,Exports,China
+Hungary,Exports,European Union
+Iceland,Exports,European Union
+India,Exports,European Union
+Indonesia,Exports,China
+Iran,Exports,China
+Iraq,Exports,China
+Ireland,Exports,European Union
+Israel,Exports,United States
+Italy,Exports,European Union
+Ivory Coast,Exports,European Union
+Jamaica,Exports,United States
+Japan,Exports,United States
+Jordan,Exports,United States
+Kazakhstan,Exports,European Union
+Kenya,Exports,European Union
+Kiribati,Exports,Other
+Kosovo,Exports,European Union
+Kuwait,Exports,Other
+Kyrgyzstan,Exports,Other
+Laos,Exports,Other
+Latvia,Exports,European Union
+Lebanon,Exports,Other
+Lesotho,Exports,Other
+Liberia,Exports,European Union
+Libya,Exports,European Union
+Liechtenstein,Exports,European Union
+Lithuania,Exports,European Union
+Luxembourg,Exports,European Union
+ Macau,Exports,Other
+Madagascar,Exports,European Union
+Malawi,Exports,European Union
+Malaysia,Exports,Other
+Maldives,Exports,European Union
+Mali,Exports,Other
+Malta,Exports,European Union
+Mauritania,Exports,China
+Mauritius,Exports,European Union
+Mexico,Exports,United States
+ Federated States of Micronesia,Exports,Other
+Moldova,Exports,European Union
+Monaco,Exports,European Union
+Mongolia,Exports,China
+Montenegro,Exports,European Union
+Morocco,Exports,European Union
+Mozambique,Exports,European Union
+Myanmar,Exports,China
+Namibia,Exports,Other
+Nepal,Exports,India
+Netherlands,Exports,European Union
+New Zealand,Exports,China
+Nicaragua,Exports,United States
+Niger,Exports,European Union
+Nigeria,Exports,European Union
+North Korea,Exports,China
+North Macedonia,Exports,European Union
+Norway,Exports,European Union
+Oman,Exports,China
+Pakistan,Exports,European Union
+ State of Palestine,Exports,Other
+Panama,Exports,European Union
+Papua New Guinea,Exports,Other
+Paraguay,Exports,Brazil
+Peru,Exports,China
+Philippines,Exports,Other
+Poland,Exports,European Union
+Portugal,Exports,European Union
+Qatar,Exports,Other
+Congo,Exports,China
+Romania,Exports,European Union
+Russia,Exports,European Union
+Rwanda,Exports,Other
+Saint Kitts and Nevis,Exports,United States
+Saint Lucia,Exports,United States
+Saint Vincent and the Grenadines,Exports,Other
+Samoa,Exports,Other
+San Marino,Exports,European Union
+Sao Tome and Principe,Exports,European Union
+Saudi Arabia,Exports,China
+Senegal,Exports,Other
+Serbia,Exports,European Union
+Seychelles,Exports,European Union
+Sierra Leone,Exports,Other
+Singapore,Exports,China
+Slovakia,Exports,European Union
+Slovenia,Exports,European Union
+Solomon Islands,Exports,China
+Somalia,Exports,Other
+Somaliland,Exports,Other
+South Africa,Exports,European Union
+South Korea,Exports,China
+S. Sudan,Exports,Other
+Spain,Exports,European Union
+Sri Lanka,Exports,European Union
+Sudan,Exports,China
+Suriname,Exports,United States
+Swaziland,Exports,Other
+Sweden,Exports,European Union
+Switzerland,Exports,European Union
+Syria,Exports,European Union
+Taiwan,Exports,China
+Tajikistan,Exports,Other
+Tanzania,Exports,Other
+Thailand,Exports,United States
+The Gambia,Exports,Other
+Timor-Leste,Exports,Other
+Togo,Exports,Other
+Tonga,Exports,Other
+Trinidad and Tobago,Exports,United States
+Tunisia,Exports,European Union
+Turkey,Exports,European Union
+Turkmenistan,Exports,China
+Uganda,Exports,European Union
+Ukraine,Exports,European Union
+United Arab Emirates,Exports,European Union
+United Kingdom,Exports,European Union
+United States of America,Exports,European Union
+Uruguay,Exports,Brazil
+Uzbekistan,Exports,Other
+Vanuatu,Exports,Other
+Venezuela,Exports,United States
+Vietnam,Exports,United States
+Yemen,Exports,Other
+Zambia,Exports,Other
+Zimbabwe,Exports,Other
+W. Sahara,Exports,Other
+Afghanistan,Imports,Other
+Albania,Imports,European Union
+Algeria,Imports,European Union
+Andorra,Imports,European Union
+Angola,Imports,European Union
+Antigua and Barbuda,Imports,United States
+Argentina,Imports,Other
+Armenia,Imports,Other
+Australia,Imports,China
+Austria,Imports,European Union
+Azerbaijan,Imports,European Union
+Bahamas,Imports,United States
+Bahrain,Imports,European Union
+Bangladesh,Imports,China
+Barbados,Imports,United States
+Belarus,Imports,Other
+Belgium,Imports,European Union
+Belize,Imports,United States
+Benin,Imports,European Union
+Bhutan,Imports,Other
+Bolivia,Imports,China
+Bosnia and Herz.,Imports,European Union
+Botswana,Imports,South Africa
+Brazil,Imports,European Union
+Brunei,Imports,Other
+Bulgaria,Imports,European Union
+Burkina Faso,Imports,European Union
+Burundi,Imports,European Union
+Cambodia,Imports,China
+Cameroon,Imports,European Union
+Canada,Imports,United States
+Côte d'Ivoire,Imports,European Union
+Central African Rep.,Imports,European Union
+Chad,Imports,European Union
+Chile,Imports,China
+China,Imports,European Union
+Colombia,Imports,United States
+Comoros,Imports,European Union
+Costa Rica,Imports,United States
+Croatia,Imports,European Union
+Cuba,Imports,China
+Cyprus,Imports,European Union
+Czechia,Imports,European Union
+Dem. Rep. Congo,Imports,European Union
+Denmark,Imports,European Union
+Djibouti,Imports,European Union
+Dominica,Imports,United States
+Dominican Rep.,Imports,United States
+Ecuador,Imports,United States
+Egypt,Imports,European Union
+El Salvador,Imports,United States
+Eq. Guinea,Imports,European Union
+Eritrea,Imports,European Union
+Estonia,Imports,European Union
+Ethiopia,Imports,China
+Fiji,Imports,Other
+Finland,Imports,European Union
+France,Imports,European Union
+Gabon,Imports,European Union
+Georgia,Imports,European Union
+Germany,Imports,European Union
+Ghana,Imports,European Union
+Greece,Imports,European Union
+Greenalnd,Imports,European Union
+Grenada,Imports,United States
+Guatemala,Imports,United States
+Guinea,Imports,European Union
+Guinea-Bissau,Imports,European Union
+Guyana,Imports,Other
+Haiti,Imports,United States
+Honduras,Imports,United States
+Hong Kong,Imports,China
+Hungary,Imports,European Union
+Iceland,Imports,European Union
+India,Imports,China
+Indonesia,Imports,China
+Iran,Imports,Other
+Iraq,Imports,China
+Ireland,Imports,European Union
+Israel,Imports,European Union
+Italy,Imports,European Union
+Ivory Coast,Imports,European Union
+Jamaica,Imports,United States
+Japan,Imports,China
+Jordan,Imports,European Union
+Kazakhstan,Imports,Other
+Kenya,Imports,Other
+Kiribati,Imports,Other
+Kosovo,Imports,European Union
+Kuwait,Imports,European Union
+Kyrgyzstan,Imports,China
+Laos,Imports,Other
+Latvia,Imports,European Union
+Lebanon,Imports,European Union
+Lesotho,Imports,South Africa
+Liberia,Imports,Other
+Libya,Imports,European Union
+Liechtenstein,Imports,European Union
+Lithuania,Imports,European Union
+Luxembourg,Imports,European Union
+ Macau,Imports,Other
+Madagascar,Imports,China
+Malawi,Imports,South Africa
+Malaysia,Imports,China
+Maldives,Imports,Other
+Mali,Imports,Other
+Malta,Imports,European Union
+Mauritania,Imports,European Union
+Mauritius,Imports,European Union
+Mexico,Imports,United States
+ Federated States of Micronesia,Imports,United States
+Moldova,Imports,European Union
+Monaco,Imports,European Union
+Mongolia,Imports,China
+Montenegro,Imports,European Union
+Morocco,Imports,European Union
+Mozambique,Imports,South Africa
+Myanmar,Imports,China
+Namibia,Imports,South Africa
+Nepal,Imports,Other
+Netherlands,Imports,European Union
+New Zealand,Imports,China
+Nicaragua,Imports,United States
+Niger,Imports,European Union
+Nigeria,Imports,European Union
+North Korea,Imports,China
+North Macedonia,Imports,European Union
+Norway,Imports,European Union
+Oman,Imports,Other
+Pakistan,Imports,China
+ State of Palestine,Imports,Other
+Panama,Imports,United States
+Papua New Guinea,Imports,Other
+Paraguay,Imports,China
+Peru,Imports,China
+Philippines,Imports,China
+Poland,Imports,European Union
+Portugal,Imports,European Union
+Qatar,Imports,European Union
+Congo,Imports,European Union
+Romania,Imports,European Union
+Russia,Imports,European Union
+Rwanda,Imports,China
+Saint Kitts and Nevis,Imports,United States
+Saint Lucia,Imports,United States
+Saint Vincent and the Grenadines,Imports,United States
+Samoa,Imports,Other
+San Marino,Imports,European Union
+Sao Tome and Principe,Imports,European Union
+Saudi Arabia,Imports,European Union
+Senegal,Imports,European Union
+Serbia,Imports,European Union
+Seychelles,Imports,European Union
+Sierra Leone,Imports,European Union
+Singapore,Imports,China
+Slovakia,Imports,European Union
+Slovenia,Imports,European Union
+Solomon Islands,Imports,Other
+Somalia,Imports,Other
+Somaliland,Imports,Other
+South Africa,Imports,European Union
+South Korea,Imports,China
+S. Sudan,Imports,Other
+Spain,Imports,European Union
+Sri Lanka,Imports,China
+Sudan,Imports,China
+Suriname,Imports,United States
+Swaziland,Imports,South Africa
+Sweden,Imports,European Union
+Switzerland,Imports,European Union
+Syria,Imports,European Union
+Taiwan,Imports,China
+Tajikistan,Imports,Other
+Tanzania,Imports,Other
+Thailand,Imports,China
+The Gambia,Imports,European Union
+Timor-Leste,Imports,Other
+Togo,Imports,European Union
+Tonga,Imports,Other
+Trinidad and Tobago,Imports,United States
+Tunisia,Imports,European Union
+Turkey,Imports,European Union
+Turkmenistan,Imports,Other
+Uganda,Imports,Other
+Ukraine,Imports,European Union
+United Arab Emirates,Imports,European Union
+United Kingdom,Imports,European Union
+United States of America,Imports,China
+Uruguay,Imports,China
+Uzbekistan,Imports,China
+Vanuatu,Imports,Other
+Venezuela,Imports,United States
+Vietnam,Imports,China
+Yemen,Imports,Other
+Zambia,Imports,Other
+Zimbabwe,Imports,South Africa
+W. Sahara,Imports,South Africa
