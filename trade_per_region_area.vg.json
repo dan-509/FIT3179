@@ -2,14 +2,15 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Total Trade per Region",
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/continentaltrade.csv"},
-"width": 600,
-"height": 300,
+"width": 400,
+"height": 250,
 "selection": {
  "continent_highlight": {
  "type": "multi",
  "fields": ["Continent"],
  "bind": "legend"
  }},
+ "config": {"view": {"stroke": "transparent"}},
 "transform": [{
     "calculate": "if(datum.Continent === 'Asia', 0, if(datum.Continent === 'Europe', 1,2))",
     "as": "siteOrder"
@@ -19,7 +20,7 @@
 
   "encoding": {
     "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}},
-    "y": {"field": "Value", "type": "quantitative", "title": "Total Trade (x10^6 USD)"},
+    "y": {"field": "Value", "type": "quantitative", "title": "Total Trade (x10^6 USD)","axis": {"grid": false}},
     
     "color": {"field": "Continent","type": "nominal", "scale": {
  "domain": ["Latin America","North America","Africa","Oceania","Europe","Asia"],"range": ["#f54242","#ffa10a","gold","#1913bf","#80a6f2","#7d0a75"]}},
