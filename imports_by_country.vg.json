@@ -28,7 +28,7 @@
       "type": "nominal",
       "scale": {
         "domain": ["European Union", "United States",  "South Africa", "China", "Other"],
-        "range": ["#2129cc", "#6a0c87", "#a3ad0c","#ab0707", "#d1cfcf"]
+        "range": ["#57a8e6", "#db4de8", "#e39149","#e33d3d", "#d1cfcf"]
       }
     },
     "tooltip": [
