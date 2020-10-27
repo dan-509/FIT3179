@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Total Trade per Region",
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/continentaltrade.csv"},
-"width": 450,
-"height": 265,
+"width": 500,
+"height": 275,
 "selection": {
  "continent_highlight": {
  "type": "multi",
