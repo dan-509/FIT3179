@@ -23,9 +23,8 @@
     "y": {"field": "Value", "type": "quantitative", "title": "Total Trade (x10^6 USD)","axis": {"grid": false}},
     
     "color": {"field": "Continent","type": "nominal", "scale": {
- "domain": ["Latin America","North America","Africa","Oceania","Europe","Asia"],"range": ["“#2F4454”, ”#2E151B”, “#DA7B93”, “#376E6F”, “#1C3334”, “#8D8E8A”"]}},
+ "domain": ["Latin America","North America","Africa","Oceania","Europe","Asia"],"range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#1C3334", "#8D8E8A"]}},
  "opacity": {"condition": {"selection": "continent_highlight", "value": 0.9},"value": 0.3},
  "order": {"field": "siteOrder"},
 
- "tooltip": [{"field": "Continent", "type": "nominal", "title": ""}, {"field": "Value", "type": "quantitative","title": "Trade Value (x10^6 USD)"}]}
-}
+ "tooltip": [{"field": "Continent", "type": "nominal", "title": ""}, {"field": "Value", "type": "quantitative","title": "Trade Value (x10^6 USD)"}]}}
