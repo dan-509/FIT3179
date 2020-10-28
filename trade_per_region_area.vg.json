@@ -4,6 +4,7 @@
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/continentaltrade.csv"},
 "width": 500,
 "height": 275,
+"background":"#eae7dc",
 "selection": {
  "continent_highlight": {
  "type": "multi",
