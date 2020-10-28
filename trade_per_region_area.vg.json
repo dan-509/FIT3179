@@ -23,7 +23,7 @@
     "y": {"field": "Value", "type": "quantitative", "title": "Total Trade (x10^6 USD)","axis": {"grid": false}},
     
     "color": {"field": "Continent","type": "nominal", "scale": {
- "domain": ["Latin America","North America","Africa","Oceania","Europe","Asia"],"range": ["#f54242","#ffa10a","gold","#1913bf","#80a6f2","#7d0a75"]}},
+ "domain": ["Latin America","North America","Africa","Oceania","Europe","Asia"],"range": ["“#2F4454”, ”#2E151B”, “#DA7B93”, “#376E6F”, “#1C3334”, “#8D8E8A”"]}},
  "opacity": {"condition": {"selection": "continent_highlight", "value": 0.9},"value": 0.3},
  "order": {"field": "siteOrder"},
 
