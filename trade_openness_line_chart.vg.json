@@ -18,7 +18,8 @@
     "x": {"field": "Year", "type": "temporal", "axis": {"grid": false, "domainOpacity": 0, "ticks": false}, "title": null},
     "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false,"domainOpacity": 0, "ticks": false}, "title":"Percent of GDP"},
     "color": {"field": "Region", "type": "nominal", "scale": {
- "domain": ["Latin America & Caribbean","North America","Sub-Saharan Africa","East Asia & Pacific","Europe & Central Asia","South Asia", "Middle East & North Africa"],"range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#1C3334", "#8D8E8A", "#9B786F"]}},
+ "domain": ["Latin America & Caribbean","North America","Sub-Saharan Africa","East Asia & Pacific","Europe & Central Asia","South Asia", "Middle East & North Africa"],
+      "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#59253A", "#8D8E8A", "#9B786F"]}},
         "opacity": {
           "condition": {"selection": "continent_highlight", "value": 0.8},
           "value": 0.1
