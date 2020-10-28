@@ -66,18 +66,8 @@
           "field": "Region",
           "type": "nominal",
           "scale": {
-            "domain": [
-              "Pacific",
-              "Europe",
-              "Latin America & Caribbean",
-              "Middle East & North Africa",
-              "North America",
-              "Asia",
-              " Africa"],
-            "range": [
-              "#f54242","#ffa10a","gold","#37bdbd","#1913bf","#7d0a75","#80a6f2"
-            ]
-          }
+ "domain": ["Latin America & Caribbean","North America","Sub-Saharan Africa","East Asia & Pacific","Europe & Central Asia","South Asia", 
+            "Middle East & North Africa"], "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#1C3334", "#8D8E8A", "#9B786F"]}
         },
         "opacity": {
           "condition": {"selection": "continent_highlight", "value": 0.8},
