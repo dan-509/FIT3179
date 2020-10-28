@@ -67,7 +67,7 @@
           "field": "Region",
           "type": "nominal",
           "scale": {
- "domain": ["Latin America & Caribbean","North America","Sub-Saharan Africa","East Asia & Pacific","Europe & Central Asia","South Asia", 
+ "domain": ["Latin America & Caribbean","North America","Africa","Oceania","Europe","Asia", 
             "Middle East & North Africa"], "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#59253A", "#8D8E8A", "#9B786F"]}
         },
         "opacity": {
