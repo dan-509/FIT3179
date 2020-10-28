@@ -1,9 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 400,
-  "height": 300,
-  "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/export_import_bar.csv"},
+  "description": "A bar chart that sorts the y-values by the x-values.",
+  "width": 350,
+  "height": 420,
+  "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/export_import_barx.csv"},
   "config": {"view": {"stroke": "transparent"}},
+  "background":"#eae7dc",
   "params": [
     {
       "name": "Indicator",
@@ -26,28 +28,31 @@
       "filter": "Indicator == datum.Exports || datum.Indicator == Indicator"
     }
   ],
+  "mark": "bar",
+  "selection": {
+        "industry": {
+          "type": "multi", "fields": ["Continent"], "bind": "legend"},  "grid":{"type": "interval", "bind": "scales"
+    }},
   "encoding": {
     "y": {
       "field": "Country",
-      "type": "nominal",
-      "axis": null},
-      "tooltip": {"field": "Value", "type": "quantitative", "title": "Percentage of Total Trade"}
-  },
-  "layer": [{
-    "mark": {"type": "bar", "color": "#ffa10a"},
-    "encoding": {
-      "x": {
-        "field": "Value",
-        "type": "quantitative",
-        "title": "Trade (x10^6 USD)",
-        "axis":{"grid": false, "domainOpacity": 0}
-      }
-    }
-  }, {
-    "mark": {"type": "text", "align": "left", "x": 5},
-    "encoding": {
-      "text": {"field": "Country"},
-      "detail": {"aggregate": "count"}
-    }
-  }]
+      "type": "ordinal",
+      "sort": "-x",
+      "title": null,
+      "axis": {"ticks": false}
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Value",
+      "title": "Value (Billions USD)",
+      "axis": null
+    },
+    "color": {"field": "Continent", "scale": {
+ "domain": ["North America","Oceania","Europe","Asia", "Middle East & North Africa"],
+         "range": ["#2E151B", "#376E6F", "#59253A", "#8D8E8A", "#9B786F"]}},
+         "opacity": {
+      "condition": {"selection": "industry", "value": 1},
+      "value": 0.1},
+        "tooltip": [{"field": "Country", "type": "nominal"},{"field": "Country", "type": "nominal"}, {"field": "Value", "type": "quantitative", "title": "Trade Value (Billions USD)"}]
+  }
 }
