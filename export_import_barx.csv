@@ -1,49 +1,49 @@
-Country,Indicator,Value
-United States,Imports,2568396
-European Union,Imports,2335303
-China,Imports,2068950
-Germany,Imports,1236298
-Japan,Imports,720964
-United Kingdom,Imports,692580
-Netherlands,Imports,646752
-France,Imports,637949
-Hong Kong (CN),Imports,578590
-South Korea,Imports,503259
-India,Imports,478883
-Italy,Imports,473562
-Mexico,Imports,467293
-Canada,Imports,453157
-Belgium,Imports,426489
-Spain,Imports,375485
-Singapore,Imports,359008
-Taiwan,Imports,285906
-Switzerland,Imports,277207
-Vietnam,Imports,271111
-Poland,Imports,246653
-Russia,Imports,243780
-Thailand,Imports,240139
-Australia,Imports,214273
-European Union,Exports,7698638
-China,Exports,2643377
-United States,Exports,2498032
-Germany,Exports,1810933
-Japan,Exports,904883
-United Kingdom,Exports,891875
-France,Exports,882761
-Netherlands,Exports,750172
-South Korea,Exports,669594
-Hong Kong,Exports,648982
-Singapore,Exports,645612
-Italy,Exports,632619
-Canada,Exports,548717
-India,Exports,545706
-Ireland,Exports,492706
-Mexico,Exports,491674
-Spain,Exports,486053
-Russia,Exports,481493
-Switzerland,Exports,458921
-Belgium,Exports,431902
-Australia,Exports,342651
-Poland,Exports,329839
-Thailand,Exports,324991
-Saudi Arabia,Exports,285712
+Continent,Country,Indicator,Value
+North America,United States,Imports,2568396
+Europe,European Union,Imports,2335303
+Asia,China,Imports,2068950
+Europe,Germany,Imports,1236298
+Asia,Japan,Imports,720964
+Europe,United Kingdom,Imports,692580
+Europe,Netherlands,Imports,646752
+Europe,France,Imports,637949
+Asia,Hong Kong (CN),Imports,578590
+Asia,South Korea,Imports,503259
+Asia,India,Imports,478883
+Europe,Italy,Imports,473562
+North America,Mexico,Imports,467293
+North America,Canada,Imports,453157
+Europe,Belgium,Imports,426489
+Europe,Spain,Imports,375485
+Asia,Singapore,Imports,359008
+Asia,Taiwan,Imports,285906
+Europe,Switzerland,Imports,277207
+Asia,Vietnam,Imports,271111
+Europe,Poland,Imports,246653
+Europe,Russia,Imports,243780
+Asia,Thailand,Imports,240139
+Oceania,Australia,Imports,214273
+Europe,European Union,Exports,7698638
+Asia,China,Exports,2643377
+North America,United States,Exports,2498032
+Europe,Germany,Exports,1810933
+Asia,Japan,Exports,904883
+Europe,United Kingdom,Exports,891875
+Europe,France,Exports,882761
+Europe,Netherlands,Exports,750172
+Asia,South Korea,Exports,669594
+Asia,Hong Kong,Exports,648982
+Asia,Singapore,Exports,645612
+Europe,Italy,Exports,632619
+North America,Canada,Exports,548717
+Asia,India,Exports,545706
+Europe,Ireland,Exports,492706
+North America,Mexico,Exports,491674
+Europe,Spain,Exports,486053
+Europe,Russia,Exports,481493
+Europe,Switzerland,Exports,458921
+Europe,Belgium,Exports,431902
+Oceania,Australia,Exports,342651
+Europe,Poland,Exports,329839
+Asia,Thailand,Exports,324991
+Middle East & North Africa,Saudi Arabia,Exports,285712
