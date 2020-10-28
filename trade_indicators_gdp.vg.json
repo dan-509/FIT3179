@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 600,
   "height": 500,
+  "background":"#eae7dc",
   "title": "Trade Indicators vs. GDP per Capita",
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_imports_exports.csv"
@@ -67,7 +68,7 @@
           "type": "nominal",
           "scale": {
  "domain": ["Latin America & Caribbean","North America","Sub-Saharan Africa","East Asia & Pacific","Europe & Central Asia","South Asia", 
-            "Middle East & North Africa"], "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#1C3334", "#8D8E8A", "#9B786F"]}
+            "Middle East & North Africa"], "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#59253A", "#8D8E8A", "#9B786F"]}
         },
         "opacity": {
           "condition": {"selection": "continent_highlight", "value": 0.8},
