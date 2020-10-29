@@ -1,12 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 550,
-  "height": 275,
+  "width": 425,
+  "height": 250,
   "autosize": {"contains": "padding"},
   "title": "Intra-Continental vs. Extra-Continental Trade",
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/continents_bar_chart.csv"
   },
+  "background":"#eae7dc",
   "params": [
     {
       "name": "Year",
@@ -35,7 +36,7 @@
        
         "color": {
           "field": "Intra-Group",
-          "type": "nominal","title": "Trade Type", "scale": {"domain": ["Intra", "Extra"], "range": ["gold","#37bdbd"]}
+          "type": "nominal","title": "Trade Type", "scale": {"domain": ["Intra", "Extra"], "range": ["#DA7B93","#59253A"]}
         },
     
         "tooltip": [
