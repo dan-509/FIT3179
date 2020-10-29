@@ -30,4 +30,4 @@
  "order": {"field": "siteOrder"},
 
  "tooltip": [{"field": "Continent", "type": "nominal", "title": ""}, {"field": "Value", "type": "quantitative","title": "Trade Value (x10^6 USD)"}, 
-             {"field": "Year", "type": "ordinal"]}}
+             {"field": "Year", "type": "ordinal"}]}}
