@@ -32,6 +32,6 @@
          "opacity": {
       "condition": {"selection": "industry", "value": 1},
       "value": 0.1},
-        "tooltip": [{"field": "Item", "type": "nominal"},{"field": "Country", "type": "nominal"}, {"field": "Value", "type": "quantitative", "title": "Trade Value (Billions USD)"}]
+        "tooltip": [{"field": "Item", "type": "nominal","title": ""}, {"field": "Value", "type": "quantitative", "title": "% of Total Trade"}]
   }
 }
