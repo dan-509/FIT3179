@@ -1,13 +1,12 @@
-
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Stock prices of 5 Tech Companies over Time.",
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/trade_openness_by_region.csv"},
   "mark": "line",
-  "width": 400,
+  "width": 650,
   "background":"#eae7dc",
-  "height": 275,
-  "title": "Trade Openness by Region",
+  "height": 300,
+  "title": {"text": "Trade Openness by Region", "dy": -20},
   "selection": {
         "continent_highlight": {
           "type": "multi",
@@ -17,7 +16,7 @@
         "config": {"view": {"stroke": "transparent"}},
   "encoding": {
     "x": {"field": "Year", "type": "temporal", "axis": {"grid": false, "domainOpacity": 0, "ticks": false}, "title": null},
-    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false,"domainOpacity": 0, "ticks": false}, "title":"Percent of GDP"},
+    "y": {"field": "Value", "type": "quantitative", "axis": {"grid": false,"domainOpacity": 0, "ticks": false}, "title":"Trade as % of GDP"},
     "color": {"field": "Region", "type": "nominal", "scale": {
  "domain": ["Latin America & Caribbean","North America","Sub-Saharan Africa","East Asia & Pacific","Europe & Central Asia","South Asia", "Middle East & North Africa"],
       "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#59253A", "#8D8E8A", "#9B786F"]}},
