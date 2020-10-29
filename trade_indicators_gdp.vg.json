@@ -1,9 +1,10 @@
+  
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 600,
-  "height": 500,
+  "width": 900,
+  "height": 550,
   "background":"#eae7dc",
-  "title": "Trade Indicators vs. GDP per Capita",
+  "title": {"text": "Trade Indicators vs. GDP per Capita", "dy": -30},
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_imports_exports.csv"
   },
@@ -19,9 +20,9 @@
           "imports_per_capita",
           "trade_openness"],
         "labels": [
-          "Exports per Capita",
-          "Imports per Capita",
-          "Trade Openness"
+          "Exports per Capita (USD)",
+          "Imports per Capita (USD)",
+          "Trade Openness (%)"
         ],
         "name": "Indicator: "
       }
@@ -99,12 +100,11 @@
         "x": {
           "field": "Value",
           "type": "quantitative",
-          "axis": {"grid": false, "ticks": false}
-        },
+          "axis": {"grid": false, "ticks": false, "tickCount": 5}},
         "y": {
           "field": "gdp_per_capita",
           "type": "quantitative",
-          "axis": {"grid": false, "ticks": false}
+          "axis": {"grid": false, "ticks": false, "tickCount": 5}
         }
       }
     },
