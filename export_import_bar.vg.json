@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A bar chart that sorts the y-values by the x-values.",
-  "width": 350,
-  "height": 420,
+  "width": 400,
+  "height": 350,
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/export_import_barx.csv"},
   "config": {"view": {"stroke": "transparent"}},
   "background":"#eae7dc",
