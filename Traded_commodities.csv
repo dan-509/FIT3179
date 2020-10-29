@@ -1,19 +1,19 @@
-﻿Item,Value,%_of_trade
-Cars,1350,4.9
-Refined Petroleum,825,3
-Integrated Circuits,804,2.9
-Vehicle Parts,685,2.5
-Computers,614,2.2
-Pharmaceuticals,613,2.2
-Gold,576,2.1
-Crude Petroleum,549,2
-Telephones,510,1.8
-Broadcasting Equipment,395,1.4
-Diamonds,255,0.9
-Petroleum Gas,254,0.9
-Human or Animal Blood,252,0.9
-Aircraft,234,0.9
-Delivery Trucks,216,0.8
-Medical Instruments,216,0.8
-Insulated Wires,200,0.7
-Jewelry,198,0.7
+Category,Item,Value,%_of_trade
+Machinery and Transport Equipment,Cars,1350,4.9
+Mineral Fuels and Related Materials, Refined Petroleum,825,3
+Electronics,Integrated Circuits,804,2.9
+Machinery and Transport Equipment,Vehicle Parts,685,2.5
+Electronics,Computers,614,2.2
+Medical,Pharmaceuticals,613,2.2
+Precious Metals,Gold,576,2.1
+Mineral Fuels and Related Materials,Crude Petroleum,549,2
+Electronics,Telephones,510,1.8
+Electronics,Broadcasting Equipment,395,1.4
+Precious Metals,Diamonds,255,0.9
+Mineral Fuels and Related Materials,Petroleum Gas,254,0.9
+Other,Human or Animal Blood,252,0.9
+Machinery and Transport Equipment,Aircraft,234,0.9
+Machinery and Transport Equipment,Delivery Trucks,216,0.8
+Medical,Medical Instruments,216,0.8
+Other,Insulated Wires,200,0.7
+Precious Metals,Jewelry,198,0.7
