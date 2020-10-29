@@ -1,32 +1,37 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A bar chart that sorts the y-values by the x-values.",
   "width": 400,
-  "height": 300,
+  "height": 350,
   "data": {"url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/Traded_commodities.csv"},
   "config": {"view": {"stroke": "transparent"}},
+  "background":"#eae7dc",
+ 
+  "mark": "bar",
+  "selection": {
+        "industry": {
+          "type": "multi", "fields": ["Category"], "bind": "legend"},  "grid":{"type": "interval", "bind": "scales"
+    }},
   "encoding": {
     "y": {
       "field": "Item",
       "type": "nominal",
-      "sort": {"op": "sum", "field": "people"},
-      "axis": null},
-      "tooltip": {"field": "%_of_trade", "type": "quantitative", "title": "Percentage of Total Trade"}
-  },
-  "layer": [{
-    "mark": {"type": "bar", "color": "#ffa10a"},
-    "encoding": {
-      "x": {
-        "field": "%_of_trade",
-        "type": "quantitative",
-        "title": "% of Total Trade",
-        "axis":{"grid": false, "domainOpacity": 0}
-      }
-    }
-  }, {
-    "mark": {"type": "text", "align": "left", "x": 5},
-    "encoding": {
-      "text": {"field": "Item"},
-      "detail": {"aggregate": "count"}
-    }
-  }]
+      "sort": "-x",
+      "title": null,
+      "axis": {"ticks": false}
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Value",
+      "title": "Value (Billions USD)",
+      "axis": null
+    },
+    "color": {"field": "Category", "scale": {
+ "domain": ["Machinery and Transport Equipment","Mineral Fuels and Related Materials","Electronics","Other", "Precious Metals","Medical"],
+         "range": ["#2E151B", "#376E6F", "#59253A", "#8D8E8A", "#9B786F","#DA7B93"]}},
+         "opacity": {
+      "condition": {"selection": "industry", "value": 1},
+      "value": 0.1},
+        "tooltip": [{"field": "Item", "type": "nominal"},{"field": "Country", "type": "nominal"}, {"field": "Value", "type": "quantitative", "title": "Trade Value (Billions USD)"}]
+  }
 }
