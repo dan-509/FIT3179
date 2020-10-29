@@ -1,4 +1,3 @@
-  
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 900,
@@ -100,11 +99,11 @@
         "x": {
           "field": "Value",
           "type": "quantitative",
-          "axis": {"grid": false, "ticks": false, "tickCount": 5}},
+          "axis": {"grid": false, "ticks": false, "tickCount": 5, "domainOpacity": 0}},
         "y": {
           "field": "gdp_per_capita",
           "type": "quantitative",
-          "axis": {"grid": false, "ticks": false, "tickCount": 5}
+          "axis": {"grid": false, "ticks": false, "tickCount": 5, "domainOpacity": 0, "values": [10,100,1000,10000,100000]}
         }
       }
     },
