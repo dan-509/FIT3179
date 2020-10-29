@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": {"text": "Top Import per Country", "dx": -185, "fontSize": 13,"fontWeight": 300, "dy": 25},
-  "width": 425,
-  "height": 250,
+  "title": "Top Imported Commodity by Country",
+  "background":"#eae7dc",
+  "width": 950,
+  "height": 450,
   "data": {
     "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-  },
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}},
   "config": {"view": {"stroke": "transparent"}},
   "transform": [
     {
@@ -20,17 +20,25 @@
       }
     },
     {"calculate": "datum.Item", "as": "Item"}
-  ],
+  ],"selection": {
+        "industry": {
+          "type": "multi", "fields": ["Item"], "bind": "legend"}},
   "projection": {"type": "equirectangular"},
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Item", "type": "nominal","scale": {"domain": ["Machinery and transport equipment","Other manufactured goods","Mineral fuels and related materials","Food, beverages and tobacco"], 
-        "range": ["#03ecfc", "#c603fc",  "#2b3dff","#f5d442"]
-      },"title": "Commodity"},
+      "field": "Item",
+      "type": "nominal",
+      "scale": {
+ "domain": ["Machinery and transport equipment","Mineral fuels and related materials","Other manufactured goods", "Food, beverages and tobacco"],
+         "range": ["#2E151B", "#376E6F",  "#8D8E8A","#2F4454"]}},
+    "opacity": {
+	      "condition": {"selection": "industry", "value": 1},
+	      "value": 0.1},
+
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Item", "type": "nominal","title": "Commodity"}
+      {"field": "Imports", "type": "nominal"}
     ]
   }
 }
