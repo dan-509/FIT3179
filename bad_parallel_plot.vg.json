@@ -4,12 +4,12 @@
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/parallel_plot.csv"
   },
-  "width": 400,
-  "height": 500,
+  "width": 575,
+  "height": 300,
   "transform": [
     {"filter": "datum['Tariffs (%)']"},
     {"window": [{"op": "count", "as": "index"}]},
-    {"fold": ["Tariffs (%)", "Preference in Competing Markets (%)", "Duty-Free (%)"]},
+    {"fold": ["Tariffs (%)", "Preference in Competing Markets (%)", "Duty-Free (%)", "Trade Openness (%)"]},
     {
       "joinaggregate": [
         {"op": "min", "field": "value", "as": "min"},
@@ -50,6 +50,9 @@
       }, {
         "type": "quantitative",
         "field": "Duty-Free (%)"
+      }, {
+        "type": "quantitative",
+        "field": "Trade Openness (%)"
       }, {
         "type": "nominal",
         "field": "Country"
