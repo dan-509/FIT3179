@@ -5,7 +5,7 @@
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/parallel_plot.csv"
   },
   "background":"#eae7dc",
-  "width": 575,
+  "width": 650,
   "height": 300,
   "transform": [
     {"filter": "datum['Tariffs (%)']"},
