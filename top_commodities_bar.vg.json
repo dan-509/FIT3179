@@ -22,7 +22,7 @@
     },
     "x": {
       "aggregate": "sum",
-      "field": "Value",
+      "field": "%_of_trade",
       "title": "Value (Billions USD)",
       "axis": {"title": null, "grid": false, "domainOpacity": 0, "ticks": false}
     },
@@ -32,6 +32,6 @@
          "opacity": {
       "condition": {"selection": "industry", "value": 1},
       "value": 0.1},
-        "tooltip": [{"field": "Item", "type": "nominal","title": ""}, {"field": "Value", "type": "quantitative", "title": "% of Total Trade"}]
+        "tooltip": [{"field": "Item", "type": "nominal","title": "Product"}, {"field": "Value", "type": "quantitative", "title": "Value of Trade (Billions USD)"}]
   }
 }
