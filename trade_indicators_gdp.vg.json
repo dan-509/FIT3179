@@ -3,7 +3,7 @@
   "width": 900,
   "height": 550,
   "background":"#eae7dc",
-  "title": {"text": "Trade Indicators vs. GDP per Capita", "dy": -30},
+  "title": {"text": "Trade Indicators vs. GDP per Capita", "dy": -18},
   "data": {
     "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_imports_exports.csv"
   },
