@@ -18,13 +18,23 @@
       "x": {"field": "key"}
     }
   }, 
-  {
+  {"selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["GDP per capita"],
+          "bind": "legend"
+        },  "grid":{"type": "interval", "bind": "scales"
+    }
+      },
     "mark": "line",
     "encoding": {
       "color": {"type": "quantitative", "field": "GDP per capita", "scale": {"type": "threshold", "domain": [2500,6000,12500,27500,45000], "range": ["#e3e2df","#e3afbc","#de5f85","#9a1750","#5d001e","#0B0C10"]}
     },
       "detail": {"type": "nominal", "field": "Region"},
-      "opacity": {"value": 0.5},
+      "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.5},
+          "value": 0.1
+        },
       "x": {"type": "nominal", "field": "key"},
       "y": {"type": "quantitative", "field": "value", "axis": null},
       "tooltip": [{
