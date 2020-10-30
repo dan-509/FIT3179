@@ -35,7 +35,7 @@
        
         "color": {
           "field": "Intra-Group",
-          "type": "nominal","title": "Trade Type", "scale": {"domain": ["Intra", "Extra"], "range": ["#DA7B93","#59253A"]}
+          "type": "nominal","title": "Trade Type", "scale": {"domain": ["Intra", "Extra"], "range": ["#9B786F","#59253A"]}
         },
     
         "tooltip": [
