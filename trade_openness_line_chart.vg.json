@@ -5,7 +5,7 @@
   "mark": "line",
   "width": 650,
   "background":"#eae7dc",
-  "height": 300,
+  "height": 275,
   "title": {"text": "Trade Openness by Region", "dy": -20},
   "selection": {
         "continent_highlight": {
