@@ -20,7 +20,7 @@
 "mark": "area",
 
   "encoding": {
-    "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}},
+    "x": {"field": "Year", "type": "temporal", "axis": {"grid": false}, "title": null},
     "y": {"field": "Value", "type": "quantitative", "title": "Total Trade (x10^6 USD)","axis": {"grid": false}},
     
     "color": {"field": "Continent","type": "nominal", "scale": {
