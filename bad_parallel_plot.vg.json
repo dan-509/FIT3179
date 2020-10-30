@@ -6,7 +6,7 @@
   },
   "background":"#eae7dc",
   "width": 650,
-  "height": 300,
+  "height": 400,
   "transform": [
     {"filter": "datum['Tariffs (%)']"},
     {"window": [{"op": "count", "as": "index"}]},
