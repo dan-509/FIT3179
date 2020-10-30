@@ -16,7 +16,7 @@
   "layer": [  
     {
       "mark": "bar",
-      "title": {"text": "Trade Balance as % of GDP","fontSize": 25, "dy": 33, "fontWeight":549, "dx": -200},
+      "title": null,
       "selection": {
         "industry": {
           "type": "multi", "fields": ["Region"], "bind": "legend"},  "grid":{"type": "interval", "bind": "scales"
