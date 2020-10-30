@@ -1,0 +1,108 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 900,
+  "height": 550,
+  "background":"#eae7dc",
+  "title": {"text": "Trade Indicators vs. GDP per Capita", "dy": -15},
+  "data": {
+    "url": "https://raw.githubusercontent.com/dan-509/FIT3179/master/gdp_trade_imports_exports.csv"
+  },
+  "config": {"view": {"stroke": "transparent"}},
+  "params": [
+    {
+      "name": "Indicator",
+      "value":"exports_per_capita",
+      "bind": {
+        "input": "select",
+        "options": [
+          "exports_per_capita",
+          "imports_per_capita",
+          "trade_openness"],
+        "labels": [
+          "Exports per Capita (USD)",
+          "Imports per Capita (USD)",
+          "Trade Openness (%)"
+        ],
+        "name": "Indicator: "
+      }
+    }
+  ],
+  "transform": [
+
+    {
+      "filter": "Indicator == datum.exports_per_capita || datum.Indicator == Indicator"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Indicator", "scale": {"type": "log"},
+          "axis": {"grid": false, "ticks": false, "tickCount": 5, "domainOpacity": 0}},
+    "y": {
+      "field": "gdp_per_capita",
+      "type": "quantitative", "title": "GDP per Capita", "scale": {"type": "log"},"axis": {"grid": false, "ticks": false, "tickCount": 5, "domainOpacity": 0, "values": [10,100,1000,10000,100000]}}
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Region"],
+          "bind": "legend"
+        },  "grid":{"type": "interval", "bind": "scales"
+    }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+            "range": [10, 50, 150, 200, 300, 400]
+          },
+          "legend": {"format": ".1s"}
+        },
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "scale": {
+ "domain": ["Latin America & Caribbean","North America","Africa","Pacific","Europe","Asia", 
+            "Middle East & North Africa"], "range": ["#2F4454", "#2E151B", "#DA7B93", "#376E6F", "#59253A", "#8D8E8A", "#9B786F"]}
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.8},
+          "value": 0.1
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "gdp_per_capita", "type": "quantitative", "format": ".2f", "title": "GDP per Capita (USD)"},
+          {"field": "Value", "type": "quantitative", "format": ".2f", "title": "Indicator"}
+        ]
+      }
+    },
+
+    {
+ "mark": {
+ "type": "text",
+ "align": "right",
+ "baseline": "line-top",
+ "dx": -0,
+ "fontSize": 11.5,
+ "fontStyle": "helvetica"
+ },
+ "encoding": {
+ "text": {"field": "Country", "type": "nominal"},
+ "color": {"value": "black"},
+ "opacity": {
+ "condition": {
+ "test": "datum['Country'] == 'China' || datum['Country'] == 'Singapore' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand'|| datum['Country'] == 'United States of America'",
+ "value": 1
+ },
+ "value": 0
+ }
+ 
+    }}
+]}
