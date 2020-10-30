@@ -8,24 +8,8 @@
   "width": 650,
   "height": 400,
   "transform": [
-    {"filter": "datum['Tariffs (%)']"},
     {"window": [{"op": "count", "as": "index"}]},
-    {"fold": ["Tariffs (%)", "Preference in Competing Markets (%)", "Duty-Free (%)", "Trade Openness (%)"]},
-    {
-      "joinaggregate": [
-        {"op": "min", "field": "value", "as": "min"},
-        {"op": "max", "field": "value", "as": "max"}
-      ],
-      "groupby": ["key"]
-    },
-    {
-      "calculate": "(datum.value - datum.min) / (datum.max-datum.min)",
-      "as": "norm_val"
-    },
-    {
-      "calculate": "(datum.min + datum.max) / 2",
-      "as": "mid"
-    }
+    {"fold": ["Duty-Free", "Preference in Competing Markets", "Tariffs", "Trade Openness"]}
   ],
   "layer": [{
     "mark": {"type": "rule", "color": "#ccc"},
@@ -33,15 +17,16 @@
       "detail": {"aggregate": "count"},
       "x": {"field": "key"}
     }
-  }, {
+  }, 
+  {
     "mark": "line",
     "encoding": {
-      "color": {"type": "quantitative", "field": "GDP per capita", "scale": {"type": "threshold", "domain": [2500,6000,10500,22000,35000,50000], "range": ["#e3e2df","#e3afbc","#ee4c7c","#9a1750","#5d001e","#2e151e","#0B0C10"]}
+      "color": {"type": "quantitative", "field": "GDP per capita", "scale": {"type": "threshold", "domain": [2500,6000,12500,27500,45000], "range": ["#e3e2df","#e3afbc","#de5f85","#9a1750","#5d001e","#0B0C10"]}
     },
       "detail": {"type": "nominal", "field": "Region"},
-      "opacity": {"value": 0.3},
+      "opacity": {"value": 0.5},
       "x": {"type": "nominal", "field": "key"},
-      "y": {"type": "quantitative", "field": "norm_val", "axis": null},
+      "y": {"type": "quantitative", "field": "value", "axis": null},
       "tooltip": [{
         "type": "quantitative",
         "field": "Tariffs (%)"
@@ -52,9 +37,6 @@
         "type": "quantitative",
         "field": "Duty-Free (%)"
       }, {
-        "type": "quantitative",
-        "field": "Trade Openness (%)"
-      }, {
         "type": "nominal",
         "field": "Country"
       }, {
@@ -64,14 +46,11 @@
     }
   }, {
     "encoding": {
-      "x": {"type": "nominal", "field": "key"},
+      "x": {"type": "nominal", "field": "key", "axis": {"ticks":false}},
       "y": {"value": 0}
     },
     "layer": [{
-      "mark": {"type": "text", "style": "label"},
-      "encoding": {
-        "text": {"aggregate": "max", "field": "max"}
-      }
+      "mark": {"type": "text", "style": "label"}
     }, {
       "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
     }]
@@ -81,12 +60,7 @@
       "y": {"value": 150}
     },
     "layer": [{
-      "mark": {"type": "text", "style": "label"},
-      "encoding": {
-        "text": {"aggregate": "min", "field": "mid"}
-      }
-    }, {
-      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc", "opacity": 0}
     }]
   }, {
     "encoding": {
@@ -94,10 +68,7 @@
       "y": {"value": 300}
     },
     "layer": [{
-      "mark": {"type": "text", "style": "label"},
-      "encoding": {
-        "text": {"aggregate": "min", "field": "min"}
-      }
+      "mark": {"type": "text", "style": "label"}
     }, {
       "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
     }]
