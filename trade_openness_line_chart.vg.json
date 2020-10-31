@@ -23,6 +23,6 @@
           "condition": {"selection": "continent_highlight", "value": 0.8},
           "value": 0.1
         },
-        "tooltip": {"field": "Value", "title": "%", "type": "quantitative", "format": ".1f"}
+        "tooltip": {"field": "Value", "title": "Trade Openness (%)", "type": "quantitative", "format": ".1f"}
   }
 }
