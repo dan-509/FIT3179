@@ -28,4 +28,4 @@
  "opacity": {"condition": {"selection": "continent_highlight", "value": 0.9},"value": 0.3},
  "order": {"field": "siteOrder"},
 
- "tooltip": [{"field": "Continent", "type": "nominal", "title": ""}, {"field": "Value", "type": "quantitative","title": "Trade Value (x10^6 USD)"}]}}
+ "tooltip": [{"field": "Continent", "type": "nominal", "title": ""}, {"field": "Value", "type": "quantitative","title": "Trade Value (x10^6 USD)", "format": ".1f"}]}}
