@@ -5,7 +5,7 @@
   "mark": "line",
   "width": 650,
   "background":"#eae7dc",
-  "height": 275,
+  "height": 250,
   "selection": {
         "continent_highlight": {
           "type": "multi",
