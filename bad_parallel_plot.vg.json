@@ -38,20 +38,23 @@
       "x": {"type": "nominal", "field": "key"},
       "y": {"type": "quantitative", "field": "value", "axis": null},
       "tooltip": [{
+        "type": "nominal",
+        "field": "Country"
+      }, {
         "type": "quantitative",
-        "field": "Tariffs (%)"
+        "field": "Duty-Free (%)"
       }, {
         "type": "quantitative",
         "field": "Preference in Competing Markets (%)"
       }, {
         "type": "quantitative",
-        "field": "Duty-Free (%)"
-      }, {
-        "type": "nominal",
-        "field": "Country"
+        "field": "Tariffs (%)"
+      },{
+        "type": "quantitative",
+        "field": "Trade Openness (%)", "format": ".1f"
       }, {
         "type": "quantitative",
-        "field": "GDP per capita"
+        "field": "GDP per capita", "format": ".1f"
       }]
     }
   }, {
