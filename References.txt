@@ -1,0 +1,26 @@
+References
+
+(2020, October). Main world traders: EU, USA and China. EU and main world traders. eurostat. https://ec.europa.eu/eurostat/statistics-explained/index.php/EU_and_main_world_traders#Main_world_traders:_EU.2C_USA_and_China
+This article helped provide some background information regarding World trade, its significance and some of the main countries and regions involved. The article wasn’t very helpful, but did provide some information.
+
+Desjardins, J. (2018, February 23). These are the world’s most traded goods. World Economic Forum. https://www.weforum.org/agenda/2018/02/the-top-importers-and-exporters-of-the-world-s-18-most-traded-goods
+This was a very informative article from a trustworthy source. It gave me the data for the world’s most traded products (which I couldn’t find), as well as some extra background information.
+Lambrechts, J. (2012, December). Does free trade result in higher GDP per capita? An international perspective. Free Trade and GDP, 12-21. DPIBE. https://ojs.deakin.edu.au/index.php/dpibe/article/download/53/60
+This was a very informative article with a lot of information. I extracted the information that was required for my visualisation. It provided case by case analysis of whether free trade helps increase a country’s wealth.
+
+(2019, December 10). Trade structure by partner. 2019 e-book of statistics. UNCTAD. https://stats.unctad.org/handbook/MerchandiseTrade/ByPartner.html
+This was extremely useful. It not only provided data, but made visualisations using the downloadable data, which gave me inspiration regarding what charts I can make. I used data from here for charts such as the intra vs. extra continental trade stacked bar chart.
+
+Trade and tariff data. WTO data portal. WTO. https://www.wto.org/english/res_e/statis_e/statis_e.htm
+This website allowed bulk data downloads of key trade indicators that I used for a wide array graphs, mainly to do with the tariff data that I used (parallel coordinates plot.
+(2020). DataBank. World Bank. https://data.worldbank.org/topic/21
+This link had a lot of information to do with exports and imports per country, this was very useful and helped me construct a large number of my graphs, including those to do with exports, imports and trade balance.
+WITS. Data Download. https://wits.worldbank.org/datadownload.aspx?lang=en
+This was a portal for a website run by the World Bank which caters for people looking for world trade data. This website was used to find tariff data and data about trade openness. It was a bit hard to navigate, but had a lot of data.
+Current account balance. OECD. https://data.oecd.org/trade/current-account-balance.htm
+I used this website for some data regarding trade balance. I didn’t need to use it much, as I already had most data that was featured here.
+GDP per capita. DataBank. World Bank. https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+I used this website in order to get the GDP per capita of each country, which was needed for my bubble chart and parallel coordinate chart. It was easy to navigate and very professional.
+
+Population, total. DataBank. World Bank. https://data.worldbank.org/indicator/SP.POP.TOTL
+I used this website in order to get the population of each country, which was needed for my bubble chart and parallel coordinate chart.
