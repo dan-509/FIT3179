@@ -23,7 +23,7 @@
   "encoding": {
     "x": {"aggregate": "sum",
       "field": "World", "axis": {"grid": false,
-      "ticks": false, "zindex": 1}, "stack":  "normalize", "title": null},
+      "ticks": false, "zindex": 1, "domainOpacity": 0}, "stack":  "normalize", "title": null},
     "y": {
       "field": "Continent",
       "type": "nominal", "title": null, "axis": {"grid": false, "domainWidth": 1.5, "domainColor": "black", "ticks": false, "zindex": 1}}
