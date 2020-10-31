@@ -28,7 +28,7 @@
       },
     "mark": "line",
     "encoding": {
-      "color": {"type": "quantitative", "field": "GDP per capita", "scale": {"type": "threshold", "domain": [2500,6000,12500,27500,45000], "range": ["#e3e2df","#e3afbc","#de5f85","#9a1750","#5d001e","#0B0C10"]}
+      "color": {"type": "quantitative", "field": "GDP per capita", "scale": {"type": "threshold", "domain": [2500,6000,12500,27500,45000], "range": ["#f7edf2","#e3afbc","#de5f85","#9a1750","#5d001e","#0B0C10"]}
     },
       "detail": {"type": "nominal", "field": "Region"},
       "opacity": {
