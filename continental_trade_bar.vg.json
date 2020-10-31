@@ -40,9 +40,10 @@
     
         "tooltip": [
           {"field": "Continent", "type": "nominal"},
-          {"field": "World", "type": "quantitative", "format": ".2f", "title": "Trade (USD)"}
+          {"field": "World", "type": "quantitative", "format": ".1f", "title": "Trade (USD)"}, {"field": "Intra-Group", "type": "nominal", "title": "Trade Type"}, {"field": "Year", "type": "ordinal"}
         ]
       }
     }
   ]
 }
+
