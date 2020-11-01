@@ -43,10 +43,10 @@ Africa,Côte d'Ivoire,exports_per_capita,482.3818268,2286.162777,26378274
 Europe,Croatia,exports_per_capita,4233.878089,14853.23984,4105267
 Latin America & Caribbean,Cuba,exports_per_capita,216.3046756,8821.818891,11326616
 Europe,Cyprus,exports_per_capita,2866.007542,27858.371,1207359
-Africa,Czechia,exports_per_capita,18536.85239,23101.7777,10708981
-Europe,Dem. Rep. Congo,exports_per_capita,75.92668016,545.2162123,89561403
+Europe,Czechia,exports_per_capita,18536.85239,23101.7777,10708981
+Africa,Dem. Rep. Congo,exports_per_capita,75.92668016,545.2162123,89561403
 Europe,Denmark,exports_per_capita,19111.74714,59822.09296,5792202
-Middle East & North Africa,Djibouti,exports_per_capita,186.7408907,3408.846254,988000
+Africa,Djibouti,exports_per_capita,186.7408907,3408.846254,988000
 Latin America & Caribbean,Dominica,exports_per_capita,277.8318006,8300.375074,71986
 Latin America & Caribbean,Dominican Rep.,exports_per_capita,1047.19711,8282.116222,10847910
 Latin America & Caribbean,Ecuador,exports_per_capita,1265.619886,6183.823825,17643054
@@ -291,7 +291,7 @@ Africa,Malawi,imports_per_capita,151.4117756,411.5523404,19129952
 Asia,Malaysia,imports_per_capita,6333.760932,11414.83766,32365999
 Asia,Maldives,imports_per_capita,5364.965664,10790.50024,540544
 Africa,Mali,imports_per_capita,227.1215214,890.7372855,20250833
-Middle East & North Africa,Malta,imports_per_capita,16016.33363,29416.23061,441543
+Europe,Malta,imports_per_capita,16016.33363,29416.23061,441543
 Pacific,Marshall Islands,imports_per_capita,1098.158473,3788.163594,59190
 Africa,Mauritania,imports_per_capita,599.2698818,1677.919253,4649658
 Africa,Mauritius,imports_per_capita,4410.552868,11203.54058,1271768
@@ -415,10 +415,10 @@ Africa,Côte d'Ivoire,trade_openness,45.59707942,2286.162777,26378274
 Europe,Croatia,trade_openness,102.8497733,14853.23984,4105267
 Latin America & Caribbean,Cuba,trade_openness,27.0947682,8821.818891,11326616
 Europe,Cyprus,trade_openness,142.6429574,27858.371,1207359
-Africa,Czechia,trade_openness,67.28727813,23101.7777,10708981
-Europe,Dem. Rep. Congo,trade_openness,144.8764656,545.2162123,89561403
+Europe,Czechia,trade_openness,67.28727813,23101.7777,10708981
+Africa,Dem. Rep. Congo,trade_openness,144.8764656,545.2162123,89561403
 Europe,Denmark,trade_openness,105.0016824,59822.09296,5792202
-Middle East & North Africa,Djibouti,trade_openness,298.2662868,3408.846254,988000
+Africa,Djibouti,trade_openness,298.2662868,3408.846254,988000
 Latin America & Caribbean,Dominica,trade_openness,139.7866015,8300.375074,71986
 Latin America & Caribbean,Dominican Rep.,trade_openness,52.96040208,8282.116222,10847910
 Latin America & Caribbean,Ecuador,trade_openness,46.7399136,6183.823825,17643054
@@ -477,7 +477,7 @@ Africa,Malawi,trade_openness,66.60450958,411.5523404,19129952
 Asia,Malaysia,trade_openness,123.0909506,11414.83766,32365999
 Asia,Maldives,trade_openness,135.7373599,10790.50024,540544
 Africa,Mali,trade_openness,57.18899731,890.7372855,20250833
-Middle East & North Africa,Malta,trade_openness,261.0120836,29416.23061,441543
+Europe,Malta,trade_openness,261.0120836,29416.23061,441543
 Pacific,Marshall Islands,trade_openness,125.7276819,3788.163594,59190
 Africa,Mauritania,trade_openness,94.2184136,1677.919253,4649658
 Africa,Mauritius,trade_openness,92.8089776,11203.54058,1271768
@@ -601,10 +601,10 @@ Latin America & Caribbean,Costa Rica,tariffs,1.8,12238.37496,5094118
 Europe,Croatia,tariffs,1.69,14853.23984,4105267
 Latin America & Caribbean,Cuba,tariffs,7.15,8821.818891,11326616
 Europe,Cyprus,tariffs,1.69,27858.371,1207359
- Africa,Czechia,tariffs,1.69,23101.7777,10708981
-Europe,Dem. Rep. Congo,tariffs,10.19,545.2162123,89561403
+ Europe,Czechia,tariffs,1.69,23101.7777,10708981
+Africa,Dem. Rep. Congo,tariffs,10.19,545.2162123,89561403
 Europe,Denmark,tariffs,1.69,59822.09296,5792202
-Middle East & North Africa,Djibouti,tariffs,17.56,3408.846254,988000
+Africa,Djibouti,tariffs,17.56,3408.846254,988000
 Latin America & Caribbean,Dominica,tariffs,8.3,8300.375074,71986
 Latin America & Caribbean,Dominican Rep.,tariffs,4.2,8282.116222,10847910
 Latin America & Caribbean,Ecuador,tariffs,7.35,6183.823825,17643054
@@ -663,7 +663,7 @@ Europe,Luxembourg,tariffs,1.69,114704.5942,625978
 Asia,Malaysia,tariffs,4.02,11414.83766,32365999
 Asia,Maldives,tariffs,11.39,10790.50024,540544
  Africa,Mali,tariffs,9.42,890.7372855,20250833
-Middle East & North Africa,Malta,tariffs,1.69,29416.23061,441543
+Europe,Malta,tariffs,1.69,29416.23061,441543
 Pacific,Marshall Islands,tariffs,7.45,3788.163594,59190
  Africa,Mauritania,tariffs,8.03,1677.919253,4649658
  Africa,Mauritius,tariffs,0.81,11203.54058,1271768
